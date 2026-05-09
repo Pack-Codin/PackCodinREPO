@@ -1,0 +1,1769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Pcodin_SinlaccModelStoreContainer" CdmEntityContainer="DBdatos">
+    <EntitySetMapping Name="Categorias_InsPro">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Categorias_InsPro">
+        <MappingFragment StoreEntitySet="Categorias_InsPro">
+          <ScalarProperty Name="ID_Balanza" ColumnName="ID_Balanza" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medidas_Producto">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.d">
+        <MappingFragment StoreEntitySet="Medidas_Producto">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_Lista_Insumos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_Lista_Insumos">
+        <MappingFragment StoreEntitySet="TT_Lista_Insumos">
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Responsable_Descip" ColumnName="Responsable_Descip" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="Insumo_Descrip" ColumnName="Insumo_Descrip" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_Pedido_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_Pedido_Cuerpo">
+        <MappingFragment StoreEntitySet="TT_Pedido_Cuerpo">
+          <ScalarProperty Name="Sesion_ID" ColumnName="Sesion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Afectada" ColumnName="Afectada" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Cantidad_Afectada" ColumnName="Cantidad_Afectada" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Ped_Cuerp_ID" ColumnName="Ped_Cuerp_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estado_Ord_Carga">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Estado_Ord_Carga">
+        <MappingFragment StoreEntitySet="Estado_Ord_Carga">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo_Noticacion">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Tipo_Noticacion">
+        <MappingFragment StoreEntitySet="Tipo_Noticacion">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Acceso_Usuario">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Acceso_Usuario">
+        <MappingFragment StoreEntitySet="Acceso_Usuario">
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Menu_ID" ColumnName="Menu_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menu_Item">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Menu_Item">
+        <MappingFragment StoreEntitySet="Menu_Item">
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Modulo_ID" ColumnName="Modulo_ID" />
+          <ScalarProperty Name="Boton" ColumnName="Boton" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Control_Backup">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Control_Backup">
+        <MappingFragment StoreEntitySet="Control_Backup">
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Ruta" ColumnName="Ruta" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_Prodocuto_Afec_OrdenCarga">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_Prodocuto_Afec_OrdenCarga">
+        <MappingFragment StoreEntitySet="TT_Prodocuto_Afec_OrdenCarga">
+          <ScalarProperty Name="Sesion_ID" ColumnName="Sesion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Numero_Pedido" ColumnName="Numero_Pedido" />
+          <ScalarProperty Name="Orden_ID" ColumnName="Orden_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="ExitenciaProTer_ID" ColumnName="ExitenciaProTer_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estado_ExistenciaProductoTerminado">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Estado_ExistenciaProductoTerminado">
+        <MappingFragment StoreEntitySet="Estado_ExistenciaProductoTerminado">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo_Cliente">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Tipo_Cliente">
+        <MappingFragment StoreEntitySet="Tipo_Cliente">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Historial_Insumos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Historial_Insumos">
+        <MappingFragment StoreEntitySet="Historial_Insumos">
+          <ScalarProperty Name="Cantidad_Utilizada" ColumnName="Cantidad_Utilizada" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo_Gasto">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Tipo_Gasto">
+        <MappingFragment StoreEntitySet="Tipo_Gasto">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movimientos_Produccion">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Movimientos_Produccion">
+        <MappingFragment StoreEntitySet="Movimientos_Produccion">
+          <ScalarProperty Name="Signo" ColumnName="Signo" />
+          <ScalarProperty Name="Modulo" ColumnName="Modulo" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Licencia">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Licencia">
+        <MappingFragment StoreEntitySet="Licencia">
+          <ScalarProperty Name="FechaVencimientoLicencia" ColumnName="FechaVencimientoLicencia" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gastos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Gastos">
+        <MappingFragment StoreEntitySet="Gastos">
+          <ScalarProperty Name="MedioPago" ColumnName="MedioPago" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="TipoGasto_ID" ColumnName="TipoGasto_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modulos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Modulos">
+        <MappingFragment StoreEntitySet="Modulos">
+          <ScalarProperty Name="ImagenWeb" ColumnName="ImagenWeb" />
+          <ScalarProperty Name="NombreBoton" ColumnName="NombreBoton" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orden_Produccion1">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Orden_Produccion1">
+        <MappingFragment StoreEntitySet="Orden_Produccion">
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Fecha_Limite" ColumnName="Fecha_Limite" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="NumeroOrden" ColumnName="NumeroOrden" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_OrdenProduccion_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_OrdenProduccion_Cuerpo">
+        <MappingFragment StoreEntitySet="TT_OrdenProduccion_Cuerpo">
+          <ScalarProperty Name="Sesion_ID" ColumnName="Sesion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="IDaEditar" ColumnName="IDaEditar" />
+          <ScalarProperty Name="Avance" ColumnName="Avance" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="OrdenProduc_ID" ColumnName="OrdenProduc_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenProduccion_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.OrdenProduccion_Cuerpo">
+        <MappingFragment StoreEntitySet="OrdenProduccion_Cuerpo">
+          <ScalarProperty Name="Avance" ColumnName="Avance" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="OrdenProd_ID" ColumnName="OrdenProd_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seccion">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Seccion">
+        <MappingFragment StoreEntitySet="Seccion">
+          <ScalarProperty Name="Seccion_Final" ColumnName="Seccion_Final" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenProduccionParteCuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.OrdenProduccionParteCuerpo">
+        <MappingFragment StoreEntitySet="OrdenProduccionParteCuerpo">
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Tiempo_Empleado" ColumnName="Tiempo_Empleado" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="OrdenProdParte_ID" ColumnName="OrdenProdParte_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos_Insumos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Productos_Insumos">
+        <MappingFragment StoreEntitySet="Productos_Insumos">
+          <ScalarProperty Name="PLU" ColumnName="PLU" />
+          <ScalarProperty Name="ProductoPalletCantidad" ColumnName="ProductoPalletCantidad" />
+          <ScalarProperty Name="ProductoPallet" ColumnName="ProductoPallet" />
+          <ScalarProperty Name="Pallet" ColumnName="Pallet" />
+          <ScalarProperty Name="EquivalenciaCantidad" ColumnName="EquivalenciaCantidad" />
+          <ScalarProperty Name="EquivalenciaMedida" ColumnName="EquivalenciaMedida" />
+          <ScalarProperty Name="EquivalenciaProducto" ColumnName="EquivalenciaProducto" />
+          <ScalarProperty Name="UtilizaEquivalencia" ColumnName="UtilizaEquivalencia" />
+          <ScalarProperty Name="CodigoBarra" ColumnName="CodigoBarra" />
+          <ScalarProperty Name="NotificaStockMin" ColumnName="NotificaStockMin" />
+          <ScalarProperty Name="Subproducto" ColumnName="Subproducto" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="NotificaPuntoPedido" ColumnName="NotificaPuntoPedido" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Punto_Pedido" ColumnName="Punto_Pedido" />
+          <ScalarProperty Name="Demora_Entrega" ColumnName="Demora_Entrega" />
+          <ScalarProperty Name="Produccion_Diaria" ColumnName="Produccion_Diaria" />
+          <ScalarProperty Name="Dias_Produccion" ColumnName="Dias_Produccion" />
+          <ScalarProperty Name="Cantidad_Ref" ColumnName="Cantidad_Ref" />
+          <ScalarProperty Name="Medida2" ColumnName="Medida2" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Ins_Prod" ColumnName="Ins_Prod" />
+          <ScalarProperty Name="StockMin" ColumnName="StockMin" />
+          <ScalarProperty Name="MaxProducción" ColumnName="MaxProducción" />
+          <ScalarProperty Name="Categoria_ID" ColumnName="Categoria_ID" />
+          <ScalarProperty Name="Apodo" ColumnName="Apodo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExistenciaProducto_ExistenciaInsumo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.ExistenciaProducto_ExistenciaInsumo">
+        <MappingFragment StoreEntitySet="ExistenciaProducto_ExistenciaInsumo">
+          <ScalarProperty Name="OrdenProduccion_ID" ColumnName="OrdenProduccion_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ExitenciaProducto_ID" ColumnName="ExitenciaProducto_ID" />
+          <ScalarProperty Name="ExistenciaInsumo_ID" ColumnName="ExistenciaInsumo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConfigDiasProduccion">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.ConfigDiasProduccion">
+        <MappingFragment StoreEntitySet="ConfigDiasProduccion">
+          <ScalarProperty Name="DiasProduccion" ColumnName="DiasProduccion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vista_CalcularPuntoPedido">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Vista_CalcularPuntoPedido">
+        <MappingFragment StoreEntitySet="Vista_CalcularPuntoPedido">
+          <ScalarProperty Name="DemoraEntrega" ColumnName="DemoraEntrega" />
+          <ScalarProperty Name="ProduccionDiaria" ColumnName="ProduccionDiaria" />
+          <ScalarProperty Name="PuntoPedido" ColumnName="PuntoPedido" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seccion_Circuito">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Seccion_Circuito">
+        <MappingFragment StoreEntitySet="Seccion_Circuito">
+          <ScalarProperty Name="Tiempo_Estimado" ColumnName="Tiempo_Estimado" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="Seccion_ID" ColumnName="Seccion_ID" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orden_Produccion_Parte">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Orden_Produccion_Parte">
+        <MappingFragment StoreEntitySet="Orden_Produccion_Parte">
+          <ScalarProperty Name="Avance" ColumnName="Avance" />
+          <ScalarProperty Name="Tiempo_Empleado" ColumnName="Tiempo_Empleado" />
+          <ScalarProperty Name="Cantidad_Producida" ColumnName="Cantidad_Producida" />
+          <ScalarProperty Name="Seccion_ID" ColumnName="Seccion_ID" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="OrdenProducCuerpo_ID" ColumnName="OrdenProducCuerpo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vista_OrdenProduccionParte">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Vista_OrdenProduccionParte">
+        <MappingFragment StoreEntitySet="Vista_OrdenProduccionParte">
+          <ScalarProperty Name="Avance" ColumnName="Avance" />
+          <ScalarProperty Name="Minutos" ColumnName="Minutos" />
+          <ScalarProperty Name="Horas" ColumnName="Horas" />
+          <ScalarProperty Name="DescripcionSeccion" ColumnName="DescripcionSeccion" />
+          <ScalarProperty Name="CodSeccion" ColumnName="CodSeccion" />
+          <ScalarProperty Name="DescripcionProducto" ColumnName="DescripcionProducto" />
+          <ScalarProperty Name="CodProducto" ColumnName="CodProducto" />
+          <ScalarProperty Name="CantidadPendiente" ColumnName="CantidadPendiente" />
+          <ScalarProperty Name="CantidadProducida" ColumnName="CantidadProducida" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="DescripcionInsumo" ColumnName="DescripcionInsumo" />
+          <ScalarProperty Name="CodigoInsumo" ColumnName="CodigoInsumo" />
+          <ScalarProperty Name="Numero_Pedido" ColumnName="Numero_Pedido" />
+          <ScalarProperty Name="NroPedido" ColumnName="NroPedido" />
+          <ScalarProperty Name="OrdenProducionID" ColumnName="OrdenProducionID" />
+          <ScalarProperty Name="OrdenProdCuerpoID" ColumnName="OrdenProdCuerpoID" />
+          <ScalarProperty Name="OrdenProdParteID" ColumnName="OrdenProdParteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftVistaProduccionEmpleadoSeccion5" FunctionName="Pcodin_SinlaccModel.Store.ftVistaProduccionEmpleadoSeccion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftVistaProduccionEmpleadoSeccion5_Result">
+          <ScalarProperty Name="CodInsumo" ColumnName="CodInsumo" />
+          <ScalarProperty Name="Insumo" ColumnName="Insumo" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="EmpleadoID" ColumnName="EmpleadoID" />
+          <ScalarProperty Name="Empleado" ColumnName="Empleado" />
+          <ScalarProperty Name="Horas" ColumnName="Horas" />
+          <ScalarProperty Name="Minutos" ColumnName="Minutos" />
+          <ScalarProperty Name="SeccionID" ColumnName="SeccionID" />
+          <ScalarProperty Name="Seccion" ColumnName="Seccion" />
+          <ScalarProperty Name="Efectividad" ColumnName="Efectividad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Vista_Stock">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Vista_Stock">
+        <MappingFragment StoreEntitySet="Vista_Stock">
+          <ScalarProperty Name="CategoriID" ColumnName="CategoriID" />
+          <ScalarProperty Name="StockMin" ColumnName="StockMin" />
+          <ScalarProperty Name="StockRealRef" ColumnName="StockRealRef" />
+          <ScalarProperty Name="PendienteRef" ColumnName="PendienteRef" />
+          <ScalarProperty Name="ExistenciaRef" ColumnName="ExistenciaRef" />
+          <ScalarProperty Name="StockReal" ColumnName="StockReal" />
+          <ScalarProperty Name="PendienteProducir" ColumnName="PendienteProducir" />
+          <ScalarProperty Name="Pendiente" ColumnName="Pendiente" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="DescripcionMedida" ColumnName="DescripcionMedida" />
+          <ScalarProperty Name="Responsable" ColumnName="Responsable" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="DescripcionProducto" ColumnName="DescripcionProducto" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vista_SotckInsumos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Vista_SotckInsumos">
+        <MappingFragment StoreEntitySet="Vista_SotckInsumos">
+          <ScalarProperty Name="PuntoPedido" ColumnName="PuntoPedido" />
+          <ScalarProperty Name="StockMin" ColumnName="StockMin" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="MedidaID" ColumnName="MedidaID" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="Insumo" ColumnName="Insumo" />
+          <ScalarProperty Name="InsumoID" ColumnName="InsumoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockFecha">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.StockFecha">
+        <MappingFragment StoreEntitySet="StockFecha">
+          <ScalarProperty Name="Fecha_Stock" ColumnName="Fecha_Stock" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftVistaStockSubproducto5" FunctionName="Pcodin_SinlaccModel.Store.ftVistaStockSubproducto">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftVistaStockSubproducto5_Result">
+          <ScalarProperty Name="InsumoID" ColumnName="InsumoID" />
+          <ScalarProperty Name="Insumo" ColumnName="Insumo" />
+          <ScalarProperty Name="MedidaID" ColumnName="MedidaID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="CantidadPendiente" ColumnName="CantidadPendiente" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Moneda">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Moneda">
+        <MappingFragment StoreEntitySet="Moneda">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonedaCotizacion">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MonedaCotizacion">
+        <MappingFragment StoreEntitySet="MonedaCotizacion">
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Moneda_ID" ColumnName="Moneda_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftStockProductos2" FunctionName="Pcodin_SinlaccModel.Store.ftStockProductos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftStockProductos2_Result">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="DescripcionProducto" ColumnName="DescripcionProducto" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Responsable" ColumnName="Responsable" />
+          <ScalarProperty Name="DescripcionMedida" ColumnName="DescripcionMedida" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="IPendiente" ColumnName="IPendiente" />
+          <ScalarProperty Name="PendienteProducir" ColumnName="PendienteProducir" />
+          <ScalarProperty Name="StockReal" ColumnName="StockReal" />
+          <ScalarProperty Name="ExistenciaRef" ColumnName="ExistenciaRef" />
+          <ScalarProperty Name="PendienteRef" ColumnName="PendienteRef" />
+          <ScalarProperty Name="StockRealRef" ColumnName="StockRealRef" />
+          <ScalarProperty Name="StockMin" ColumnName="StockMin" />
+          <ScalarProperty Name="CategoriID" ColumnName="CategoriID" />
+          <ScalarProperty Name="ValorUnidadPeso" ColumnName="ValorUnidadPeso" />
+          <ScalarProperty Name="ValorUnidadDolar" ColumnName="ValorUnidadDolar" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="TT_DepositoSeleccionado">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_DepositoSeleccionado">
+        <MappingFragment StoreEntitySet="TT_DepositoSeleccionado">
+          <ScalarProperty Name="DepositoSeleccionado" ColumnName="DepositoSeleccionado" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Existencia_Insumos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Existencia_Insumos">
+        <MappingFragment StoreEntitySet="Existencia_Insumos">
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Proveedor_ID" ColumnName="Proveedor_ID" />
+          <ScalarProperty Name="Cantidad_Utilizada" ColumnName="Cantidad_Utilizada" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_Orden_Carga_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_Orden_Carga_Cuerpo">
+        <MappingFragment StoreEntitySet="TT_Orden_Carga_Cuerpo">
+          <ScalarProperty Name="Sesion_ID" ColumnName="Sesion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Numero_Pedido" ColumnName="Numero_Pedido" />
+          <ScalarProperty Name="Orden_IDref" ColumnName="Orden_IDref" />
+          <ScalarProperty Name="IDaEditar" ColumnName="IDaEditar" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="Orden_ID" ColumnName="Orden_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftStockInsumos3" FunctionName="Pcodin_SinlaccModel.Store.ftStockInsumos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftStockInsumos3_Result">
+          <ScalarProperty Name="InsumoID" ColumnName="InsumoID" />
+          <ScalarProperty Name="Insumo" ColumnName="Insumo" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="MedidaID" ColumnName="MedidaID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="StockMin" ColumnName="StockMin" />
+          <ScalarProperty Name="PuntoPedido" ColumnName="PuntoPedido" />
+          <ScalarProperty Name="ValorUnidadPeso" ColumnName="ValorUnidadPeso" />
+          <ScalarProperty Name="ValorUnidadDolar" ColumnName="ValorUnidadDolar" />
+          <ScalarProperty Name="UltimaCotizacion" ColumnName="UltimaCotizacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Formula_Producto">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Formula_Producto">
+        <MappingFragment StoreEntitySet="Formula_Producto">
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producto_Cliente">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Producto_Cliente">
+        <MappingFragment StoreEntitySet="Producto_Cliente">
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Moneda_ID" ColumnName="Moneda_ID" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Insumo_Proveedor">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Insumo_Proveedor">
+        <MappingFragment StoreEntitySet="Insumo_Proveedor">
+          <ScalarProperty Name="Moneda_ID" ColumnName="Moneda_ID" />
+          <ScalarProperty Name="Proveedor_Principal" ColumnName="Proveedor_Principal" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Proveedor_ID" ColumnName="Proveedor_ID" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="AdminCaja" ColumnName="AdminCaja" />
+          <ScalarProperty Name="UsuarioAPP" ColumnName="UsuarioAPP" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EnviaNotificacion" ColumnName="EnviaNotificacion" />
+          <ScalarProperty Name="Monetizado" ColumnName="Monetizado" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Informes">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Informes">
+        <MappingFragment StoreEntitySet="Informes">
+          <ScalarProperty Name="Modulo_ID" ColumnName="Modulo_ID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaProduccionPorEmpleado">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaProduccionPorEmpleado">
+        <MappingFragment StoreEntitySet="VistaProduccionPorEmpleado">
+          <ScalarProperty Name="Seccion" ColumnName="Seccion" />
+          <ScalarProperty Name="IDSeccion" ColumnName="IDSeccion" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Minutos" ColumnName="Minutos" />
+          <ScalarProperty Name="Horas" ColumnName="Horas" />
+          <ScalarProperty Name="Empleado" ColumnName="Empleado" />
+          <ScalarProperty Name="IDEmpleado" ColumnName="IDEmpleado" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Insumo" ColumnName="Insumo" />
+          <ScalarProperty Name="CodIsnumo" ColumnName="CodIsnumo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientesLogo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.ClientesLogo">
+        <MappingFragment StoreEntitySet="ClientesLogo">
+          <ScalarProperty Name="Ancho" ColumnName="Ancho" />
+          <ScalarProperty Name="Largo" ColumnName="Largo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PcnConfiguraciones">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.PcnConfiguraciones">
+        <MappingFragment StoreEntitySet="PcnConfiguraciones">
+          <ScalarProperty Name="FondoInicio" ColumnName="FondoInicio" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="TipoDeposito" ColumnName="TipoDeposito" />
+          <ScalarProperty Name="TrabajaConStockNegativo" ColumnName="TrabajaConStockNegativo" />
+          <ScalarProperty Name="Modulo_ID" ColumnName="Modulo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificaciones">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Notificaciones">
+        <MappingFragment StoreEntitySet="Notificaciones">
+          <ScalarProperty Name="HTLM" ColumnName="HTLM" />
+          <ScalarProperty Name="EmailAsunto" ColumnName="EmailAsunto" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NotificacionConfigurable_ID" ColumnName="NotificacionConfigurable_ID" />
+          <ScalarProperty Name="EmailError" ColumnName="EmailError" />
+          <ScalarProperty Name="SaltoLineaPorComa" ColumnName="SaltoLineaPorComa" />
+          <ScalarProperty Name="EnviaMail" ColumnName="EnviaMail" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Leida" ColumnName="Leida" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Tipo_ID" ColumnName="Tipo_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TEMA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TEMA">
+        <MappingFragment StoreEntitySet="TEMA">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOTEMA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.USUARIOTEMA">
+        <MappingFragment StoreEntitySet="USUARIOTEMA">
+          <ScalarProperty Name="Tema" ColumnName="Tema" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftStockProductoFinalPorLote" FunctionName="Pcodin_SinlaccModel.Store.ftStockProductoFinalPorLote">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftStockProductoFinalPorLote_Result">
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="MedidaID" ColumnName="MedidaID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="PendienteEntrega" ColumnName="PendienteEntrega" />
+          <ScalarProperty Name="StockReal" ColumnName="StockReal" />
+          <ScalarProperty Name="PendienteProducir" ColumnName="PendienteProducir" />
+          <ScalarProperty Name="ExistenciaRef" ColumnName="ExistenciaRef" />
+          <ScalarProperty Name="PendienteEntregarRef" ColumnName="PendienteEntregarRef" />
+          <ScalarProperty Name="StockRealRef" ColumnName="StockRealRef" />
+          <ScalarProperty Name="PendienteProducirRef" ColumnName="PendienteProducirRef" />
+          <ScalarProperty Name="StockMinimo" ColumnName="StockMinimo" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="ResponsableID" ColumnName="ResponsableID" />
+          <ScalarProperty Name="Responsable" ColumnName="Responsable" />
+          <ScalarProperty Name="ValorUnidadPeso" ColumnName="ValorUnidadPeso" />
+          <ScalarProperty Name="ValorUnidadDolar" ColumnName="ValorUnidadDolar" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="INGRESOMERCADERIA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.INGRESOMERCADERIA">
+        <MappingFragment StoreEntitySet="INGRESOMERCADERIA">
+          <ScalarProperty Name="Empleado_ID" ColumnName="Empleado_ID" />
+          <ScalarProperty Name="MedioPago" ColumnName="MedioPago" />
+          <ScalarProperty Name="Fecha_Guardado" ColumnName="Fecha_Guardado" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="LetraComprobante" ColumnName="LetraComprobante" />
+          <ScalarProperty Name="NumeroComprobante" ColumnName="NumeroComprobante" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="ImporteTotal" ColumnName="ImporteTotal" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Proveedor_ID" ColumnName="Proveedor_ID" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INGRESOMERCADERIACUERPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.INGRESOMERCADERIACUERPO">
+        <MappingFragment StoreEntitySet="INGRESOMERCADERIACUERPO">
+          <ScalarProperty Name="ImporteTotal" ColumnName="ImporteTotal" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="Ingreso_ID" ColumnName="Ingreso_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOVIMIENTOS">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MOVIMIENTOS">
+        <MappingFragment StoreEntitySet="MOVIMIENTOS">
+          <ScalarProperty Name="SignoCaja" ColumnName="SignoCaja" />
+          <ScalarProperty Name="Signo" ColumnName="Signo" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Modulo_ID" ColumnName="Modulo_ID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LISTAPRECIO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.LISTAPRECIO">
+        <MappingFragment StoreEntitySet="LISTAPRECIO">
+          <ScalarProperty Name="UltimaActualizacion" ColumnName="UltimaActualizacion" />
+          <ScalarProperty Name="PorcentajeGanancia" ColumnName="PorcentajeGanancia" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LISTAPRECIOCUERPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.LISTAPRECIOCUERPO">
+        <MappingFragment StoreEntitySet="LISTAPRECIOCUERPO">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Articulo_ID" ColumnName="Articulo_ID" />
+          <ScalarProperty Name="ListaPrecio_ID" ColumnName="ListaPrecio_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftStockMercaderia" FunctionName="Pcodin_SinlaccModel.Store.ftStockMercaderia">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftStockMercaderia_Result">
+          <ScalarProperty Name="CodArticulo" ColumnName="CodArticulo" />
+          <ScalarProperty Name="Articulo" ColumnName="Articulo" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="MedidaID" ColumnName="MedidaID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="StockMin" ColumnName="StockMin" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="ValorPeso" ColumnName="ValorPeso" />
+          <ScalarProperty Name="ValorDolar" ColumnName="ValorDolar" />
+          <ScalarProperty Name="UltimaCotizacion" ColumnName="UltimaCotizacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="CODIGOBARRA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.CODIGOBARRA">
+        <MappingFragment StoreEntitySet="CODIGOBARRA">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CodigoBarra1" ColumnName="CodigoBarra" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vista_MostrarMercaderia">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Vista_MostrarMercaderia">
+        <MappingFragment StoreEntitySet="Vista_MostrarMercaderia">
+          <ScalarProperty Name="CodigoBarra" ColumnName="CodigoBarra" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CodCategoria" ColumnName="CodCategoria" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Apodo" ColumnName="Apodo" />
+          <ScalarProperty Name="Articulo" ColumnName="Articulo" />
+          <ScalarProperty Name="CodArticulo" ColumnName="CodArticulo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaDetalleMovimientos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaDetalleMovimientos">
+        <MappingFragment StoreEntitySet="VistaDetalleMovimientos">
+          <ScalarProperty Name="CodComprobante" ColumnName="CodComprobante" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Articulo" ColumnName="Articulo" />
+          <ScalarProperty Name="Numero_comprobante" ColumnName="Numero comprobante" />
+          <ScalarProperty Name="Comprobante" ColumnName="Comprobante" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vista_OrdenCargaAfectar">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Vista_OrdenCargaAfectar">
+        <MappingFragment StoreEntitySet="Vista_OrdenCargaAfectar">
+          <ScalarProperty Name="PedidoCuerpo_ID" ColumnName="PedidoCuerpo_ID" />
+          <ScalarProperty Name="Cantidad_afec" ColumnName="Cantidad afec" />
+          <ScalarProperty Name="Cantidad_pend" ColumnName="Cantidad pend" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="Cod_Producto" ColumnName="Cod Producto" />
+          <ScalarProperty Name="Numero_Pedido" ColumnName="Numero Pedido" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOSESION">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.USUARIOSESION">
+        <MappingFragment StoreEntitySet="USUARIOSESION">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TT_Existencia_ProductoTerminado">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TT_Existencia_ProductoTerminado">
+        <MappingFragment StoreEntitySet="TT_Existencia_ProductoTerminado">
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+          <ScalarProperty Name="Sesion_ID" ColumnName="Sesion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="OrdenCuerpo_ID" ColumnName="OrdenCuerpo_ID" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Empleado_ID" ColumnName="Empleado_ID" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="Retencion" ColumnName="Retencion" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IDaModificar" ColumnName="IDaModificar" />
+          <ScalarProperty Name="Cantidad_Afec" ColumnName="Cantidad_Afec" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producto_Afec_OrdenCarga">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Producto_Afec_OrdenCarga">
+        <MappingFragment StoreEntitySet="Producto_Afec_OrdenCarga">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Orden_ID" ColumnName="Orden_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="ExitenciaProTer_ID" ColumnName="ExitenciaProTer_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.AA">
+        <MappingFragment StoreEntitySet="AA">
+          <ScalarProperty Name="Orden_IDref" ColumnName="Orden_IDref" />
+          <ScalarProperty Name="IDaEditar" ColumnName="IDaEditar" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="Orden_ID" ColumnName="Orden_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MensajeChatsLatIzq">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MensajeChatsLatIzq">
+        <MappingFragment StoreEntitySet="MensajeChatsLatIzq">
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="No_leidos" ColumnName="No leidos" />
+          <ScalarProperty Name="ReceptorNombre" ColumnName="ReceptorNombre" />
+          <ScalarProperty Name="ReceptorID" ColumnName="ReceptorID" />
+          <ScalarProperty Name="EmisorNombre" ColumnName="EmisorNombre" />
+          <ScalarProperty Name="EmisorID" ColumnName="EmisorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaOCC_CantidadesAfectas">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaOCC_CantidadesAfectas">
+        <MappingFragment StoreEntitySet="VistaOCC_CantidadesAfectas">
+          <ScalarProperty Name="Sesion_ID" ColumnName="Sesion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CantAFEC" ColumnName="CantAFEC" />
+          <ScalarProperty Name="CantOCC" ColumnName="CantOCC" />
+          <ScalarProperty Name="MedidaDescrip" ColumnName="MedidaDescrip" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductoDescrip" ColumnName="ProductoDescrip" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Numero_Pedido" ColumnName="Numero_Pedido" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="Orden_ID" ColumnName="Orden_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INFOSISTEMA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.INFOSISTEMA">
+        <MappingFragment StoreEntitySet="INFOSISTEMA">
+          <ScalarProperty Name="Licencia" ColumnName="Licencia" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Existencia_Productos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Existencia_Productos">
+        <MappingFragment StoreEntitySet="Existencia_Productos">
+          <ScalarProperty Name="Existencia_Real" ColumnName="Existencia_Real" />
+          <ScalarProperty Name="Pendientes_Entregar" ColumnName="Pendientes_Entregar" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orden_Carga">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Orden_Carga">
+        <MappingFragment StoreEntitySet="Orden_Carga">
+          <ScalarProperty Name="Chofer_ID" ColumnName="Chofer_ID" />
+          <ScalarProperty Name="Modo" ColumnName="Modo" />
+          <ScalarProperty Name="Numero_Orden" ColumnName="Numero_Orden" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Ciudad_ID" ColumnName="Ciudad_ID" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Existencia_ProductoTerminado">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Existencia_ProductoTerminado">
+        <MappingFragment StoreEntitySet="Existencia_ProductoTerminado">
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="OrdenCargaCuerpo_ID" ColumnName="OrdenCargaCuerpo_ID" />
+          <ScalarProperty Name="OrdenCargaID" ColumnName="OrdenCargaID" />
+          <ScalarProperty Name="Acidez" ColumnName="Acidez" />
+          <ScalarProperty Name="Humedad" ColumnName="Humedad" />
+          <ScalarProperty Name="Ingreso_ID" ColumnName="Ingreso_ID" />
+          <ScalarProperty Name="Ciudad_ID" ColumnName="Ciudad_ID" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Desperdicio" ColumnName="Desperdicio" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+          <ScalarProperty Name="Numero_Produccion" ColumnName="Numero_Produccion" />
+          <ScalarProperty Name="OrdenProduccionParteCuerpo_ID" ColumnName="OrdenProduccionParteCuerpo_ID" />
+          <ScalarProperty Name="Turno" ColumnName="Turno" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="OrdenProduccion_ID" ColumnName="OrdenProduccion_ID" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Empleado_ID" ColumnName="Empleado_ID" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Retencion" ColumnName="Retencion" />
+          <ScalarProperty Name="Cantidad_Utiliz" ColumnName="Cantidad_Utiliz" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Produto_ID" ColumnName="Produto_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MANTENIMIENTOREGISTRO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MANTENIMIENTOREGISTRO">
+        <MappingFragment StoreEntitySet="MANTENIMIENTOREGISTRO">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MantenimientoTipo_ID" ColumnName="MantenimientoTipo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MANTENIMIENTOTIPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MANTENIMIENTOTIPO">
+        <MappingFragment StoreEntitySet="MANTENIMIENTOTIPO">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MANTENIMIENTOTIPOTAREA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MANTENIMIENTOTIPOTAREA">
+        <MappingFragment StoreEntitySet="MANTENIMIENTOTIPOTAREA">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="MantenimientoTipo_ID" ColumnName="MantenimientoTipo_ID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NOTIFICACIONCONFIGURABLE">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.NOTIFICACIONCONFIGURABLE">
+        <MappingFragment StoreEntitySet="NOTIFICACIONCONFIGURABLE">
+          <ScalarProperty Name="Quick" ColumnName="Quick" />
+          <ScalarProperty Name="SubModuloID" ColumnName="SubModuloID" />
+          <ScalarProperty Name="ImagenPath" ColumnName="ImagenPath" />
+          <ScalarProperty Name="Modulo" ColumnName="Modulo" />
+          <ScalarProperty Name="NotificaProveedor" ColumnName="NotificaProveedor" />
+          <ScalarProperty Name="HTML" ColumnName="HTML" />
+          <ScalarProperty Name="ParametrosCantidad" ColumnName="ParametrosCantidad" />
+          <ScalarProperty Name="EmailMensaje" ColumnName="EmailMensaje" />
+          <ScalarProperty Name="EmailAsunto" ColumnName="EmailAsunto" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Consulta" ColumnName="Consulta" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NOTIFICACIONCONFIGURABLEENVIO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.NOTIFICACIONCONFIGURABLEENVIO">
+        <MappingFragment StoreEntitySet="NOTIFICACIONCONFIGURABLEENVIO">
+          <ScalarProperty Name="NotificacionConfigurable_ID" ColumnName="NotificacionConfigurable_ID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenCarga_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.OrdenCarga_Cuerpo">
+        <MappingFragment StoreEntitySet="OrdenCarga_Cuerpo">
+          <ScalarProperty Name="NumeroPedido" ColumnName="NumeroPedido" />
+          <ScalarProperty Name="PedidoCuerpoID" ColumnName="PedidoCuerpoID" />
+          <ScalarProperty Name="TipoPallet" ColumnName="TipoPallet" />
+          <ScalarProperty Name="Acidez" ColumnName="Acidez" />
+          <ScalarProperty Name="Humedad" ColumnName="Humedad" />
+          <ScalarProperty Name="Pallets" ColumnName="Pallets" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Afectada" ColumnName="Afectada" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="Orden_ID" ColumnName="Orden_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ftStockProductoFinaLPorLote_01" FunctionName="Pcodin_SinlaccModel.Store.ftStockProductoFinaLPorLote_01">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Pcodin_SinlaccModel.ftStockProductoFinaLPorLote_01_Result">
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="MedidaID" ColumnName="MedidaID" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="PendienteEntrega" ColumnName="PendienteEntrega" />
+          <ScalarProperty Name="StockReal" ColumnName="StockReal" />
+          <ScalarProperty Name="PendienteProducir" ColumnName="PendienteProducir" />
+          <ScalarProperty Name="ExistenciaRef" ColumnName="ExistenciaRef" />
+          <ScalarProperty Name="PendienteEntregarRef" ColumnName="PendienteEntregarRef" />
+          <ScalarProperty Name="StockRealRef" ColumnName="StockRealRef" />
+          <ScalarProperty Name="PendienteProducirRef" ColumnName="PendienteProducirRef" />
+          <ScalarProperty Name="StockMinimo" ColumnName="StockMinimo" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="ValorUnidadPeso" ColumnName="ValorUnidadPeso" />
+          <ScalarProperty Name="ValorUnidadDolar" ColumnName="ValorUnidadDolar" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="USUARIOCONFIG">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.USUARIOCONFIG">
+        <MappingFragment StoreEntitySet="USUARIOCONFIG">
+          <ScalarProperty Name="AltoPantalla" ColumnName="AltoPantalla" />
+          <ScalarProperty Name="AnchoPantalla" ColumnName="AnchoPantalla" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUTOBACKUPBASES">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.AUTOBACKUPBASES">
+        <MappingFragment StoreEntitySet="AUTOBACKUPBASES">
+          <ScalarProperty Name="Base" ColumnName="Base" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutoBackupRuta">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.AutoBackupRuta">
+        <MappingFragment StoreEntitySet="AutoBackupRuta">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Dias" ColumnName="Dias" />
+          <ScalarProperty Name="Ruta" ColumnName="Ruta" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deposito">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Deposito">
+        <MappingFragment StoreEntitySet="Deposito">
+          <ScalarProperty Name="MovProduccion_ID" ColumnName="MovProduccion_ID" />
+          <ScalarProperty Name="Deposito1" ColumnName="Deposito" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMOJI">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.EMOJI">
+        <MappingFragment StoreEntitySet="EMOJI">
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Grupo_ID" ColumnName="Grupo_ID" />
+          <ScalarProperty Name="Emoji1" ColumnName="Emoji" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMOJIGRUPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.EMOJIGRUPO">
+        <MappingFragment StoreEntitySet="EMOJIGRUPO">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MENSAJE">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MENSAJE">
+        <MappingFragment StoreEntitySet="MENSAJE">
+          <ScalarProperty Name="NombreDocumento" ColumnName="NombreDocumento" />
+          <ScalarProperty Name="Extencion" ColumnName="Extencion" />
+          <ScalarProperty Name="Formato" ColumnName="Formato" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="DuracionAudio" ColumnName="DuracionAudio" />
+          <ScalarProperty Name="Audio" ColumnName="Audio" />
+          <ScalarProperty Name="Emoji" ColumnName="Emoji" />
+          <ScalarProperty Name="Notificado" ColumnName="Notificado" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="ActualiazarReceptor" ColumnName="ActualiazarReceptor" />
+          <ScalarProperty Name="ActualiazarEmisor" ColumnName="ActualiazarEmisor" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Entregado" ColumnName="Entregado" />
+          <ScalarProperty Name="LeidoEmisor" ColumnName="LeidoEmisor" />
+          <ScalarProperty Name="LeidoReceptor" ColumnName="LeidoReceptor" />
+          <ScalarProperty Name="UsuarioEmisorID" ColumnName="UsuarioEmisorID" />
+          <ScalarProperty Name="UsuarioReceptorID" ColumnName="UsuarioReceptorID" />
+          <ScalarProperty Name="Leido" ColumnName="Leido" />
+          <ScalarProperty Name="Mensaje1" ColumnName="Mensaje" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificacionEmail">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.NotificacionEmail">
+        <MappingFragment StoreEntitySet="NotificacionEmail">
+          <ScalarProperty Name="Puerto" ColumnName="Puerto" />
+          <ScalarProperty Name="ServidorSMPT" ColumnName="ServidorSMPT" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREA">
+        <MappingFragment StoreEntitySet="TAREA">
+          <ScalarProperty Name="EstadoAprobacion" ColumnName="EstadoAprobacion" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="ReponsableAprobacion_ID" ColumnName="ReponsableAprobacion_ID" />
+          <ScalarProperty Name="PuntuacionAprobacion" ColumnName="PuntuacionAprobacion" />
+          <ScalarProperty Name="ComentarioAprobacion" ColumnName="ComentarioAprobacion" />
+          <ScalarProperty Name="AnexosAltercados_Acciones" ColumnName="AnexosAltercados_Acciones" />
+          <ScalarProperty Name="Acciones" ColumnName="Acciones" />
+          <ScalarProperty Name="Sugerencias_Planteo" ColumnName="Sugerencias_Planteo" />
+          <ScalarProperty Name="Planteo" ColumnName="Planteo" />
+          <ScalarProperty Name="Clasificacion_ID" ColumnName="Clasificacion_ID" />
+          <ScalarProperty Name="Prioridad_ID" ColumnName="Prioridad_ID" />
+          <ScalarProperty Name="FechaLimite" ColumnName="FechaLimite" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OrdenadaPor_ID" ColumnName="OrdenadaPor_ID" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREACLASIFICACION">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREACLASIFICACION">
+        <MappingFragment StoreEntitySet="TAREACLASIFICACION">
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREACUERPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREACUERPO">
+        <MappingFragment StoreEntitySet="TAREACUERPO">
+          <ScalarProperty Name="Ejecutor_ID" ColumnName="Ejecutor_ID" />
+          <ScalarProperty Name="Creador_ID" ColumnName="Creador_ID" />
+          <ScalarProperty Name="Tiempo_Limite" ColumnName="Tiempo_Limite" />
+          <ScalarProperty Name="Fecha_Limite" ColumnName="Fecha_Limite" />
+          <ScalarProperty Name="Fecha_Inicio" ColumnName="Fecha_Inicio" />
+          <ScalarProperty Name="Planteo" ColumnName="Planteo" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Tramo_ID" ColumnName="Tramo_ID" />
+          <ScalarProperty Name="Tarea_ID" ColumnName="Tarea_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREACUERPO_TT">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREACUERPO_TT">
+        <MappingFragment StoreEntitySet="TAREACUERPO_TT">
+          <ScalarProperty Name="Ejecutor_ID" ColumnName="Ejecutor_ID" />
+          <ScalarProperty Name="Creador_ID" ColumnName="Creador_ID" />
+          <ScalarProperty Name="Tiempo_Limite" ColumnName="Tiempo_Limite" />
+          <ScalarProperty Name="Fecha_Limite" ColumnName="Fecha_Limite" />
+          <ScalarProperty Name="Fecha_Inicio" ColumnName="Fecha_Inicio" />
+          <ScalarProperty Name="Planteo" ColumnName="Planteo" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Tramo_ID" ColumnName="Tramo_ID" />
+          <ScalarProperty Name="Tarea_ID" ColumnName="Tarea_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREACUERPODATO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREACUERPODATO">
+        <MappingFragment StoreEntitySet="TAREACUERPODATO">
+          <ScalarProperty Name="Ejecutor_ID" ColumnName="Ejecutor_ID" />
+          <ScalarProperty Name="Tiempo_Limite" ColumnName="Tiempo_Limite" />
+          <ScalarProperty Name="Fecha_Limite" ColumnName="Fecha_Limite" />
+          <ScalarProperty Name="Fecha_Inicio" ColumnName="Fecha_Inicio" />
+          <ScalarProperty Name="Planteo" ColumnName="Planteo" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Tramo_ID" ColumnName="Tramo_ID" />
+          <ScalarProperty Name="TareaCuerpo_ID" ColumnName="TareaCuerpo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREACUERPOTIEMPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREACUERPOTIEMPO">
+        <MappingFragment StoreEntitySet="TAREACUERPOTIEMPO">
+          <ScalarProperty Name="Anexo" ColumnName="Anexo" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Minutos" ColumnName="Minutos" />
+          <ScalarProperty Name="Horas" ColumnName="Horas" />
+          <ScalarProperty Name="TareaCuerpo_ID" ColumnName="TareaCuerpo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREACUERPOTIEMPO_TT">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREACUERPOTIEMPO_TT">
+        <MappingFragment StoreEntitySet="TAREACUERPOTIEMPO_TT">
+          <ScalarProperty Name="Anexo" ColumnName="Anexo" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Minutos" ColumnName="Minutos" />
+          <ScalarProperty Name="Horas" ColumnName="Horas" />
+          <ScalarProperty Name="TareaCuerpo_ID" ColumnName="TareaCuerpo_ID" />
+          <ScalarProperty Name="Tarea_ID" ColumnName="Tarea_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREAPRIORIDAD">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREAPRIORIDAD">
+        <MappingFragment StoreEntitySet="TAREAPRIORIDAD">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAREATRAMO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TAREATRAMO">
+        <MappingFragment StoreEntitySet="TAREATRAMO">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZONA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.ZONA">
+        <MappingFragment StoreEntitySet="ZONA">
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaPedidos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaPedidos">
+        <MappingFragment StoreEntitySet="VistaPedidos">
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="CantidadPendiente" ColumnName="CantidadPendiente" />
+          <ScalarProperty Name="CantidadOriginal" ColumnName="CantidadOriginal" />
+          <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+          <ScalarProperty Name="CiudadID" ColumnName="CiudadID" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="PedidoCuerpoID" ColumnName="PedidoCuerpoID" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="EstadoPedido" ColumnName="EstadoPedido" />
+          <ScalarProperty Name="Zona" ColumnName="Zona" />
+          <ScalarProperty Name="Zona_ID" ColumnName="Zona_ID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="OrdenCargaID" ColumnName="OrdenCargaID" />
+          <ScalarProperty Name="PedidoID" ColumnName="PedidoID" />
+          <ScalarProperty Name="NumeroOrdenCarga" ColumnName="NumeroOrdenCarga" />
+          <ScalarProperty Name="NumeroPedido" ColumnName="NumeroPedido" />
+          <ScalarProperty Name="FechaOrdenCarga" ColumnName="FechaOrdenCarga" />
+          <ScalarProperty Name="FechaPedido" ColumnName="FechaPedido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOTEPRODUCCION">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.LOTEPRODUCCION">
+        <MappingFragment StoreEntitySet="LOTEPRODUCCION">
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Acidez" ColumnName="Acidez" />
+          <ScalarProperty Name="Humedad" ColumnName="Humedad" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estado_Pedido_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Estado_Pedido_Cuerpo">
+        <MappingFragment StoreEntitySet="Estado_Pedido_Cuerpo">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pedido_Cuerpo">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Pedido_Cuerpo">
+        <MappingFragment StoreEntitySet="Pedido_Cuerpo">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Pallets" ColumnName="Pallets" />
+          <ScalarProperty Name="Cantidad_Afec_Producir" ColumnName="Cantidad_Afec_Producir" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Cantidad_Total_Producida" ColumnName="Cantidad_Total_Producida" />
+          <ScalarProperty Name="Cantidad_Producida" ColumnName="Cantidad_Producida" />
+          <ScalarProperty Name="Cantidad_Pend_Producir" ColumnName="Cantidad_Pend_Producir" />
+          <ScalarProperty Name="Cantidad_Total_Entregada" ColumnName="Cantidad_Total_Entregada" />
+          <ScalarProperty Name="Cantidad_Entregada" ColumnName="Cantidad_Entregada" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Medida_ID" ColumnName="Medida_ID" />
+          <ScalarProperty Name="Producto_ID" ColumnName="Producto_ID" />
+          <ScalarProperty Name="Pedido_ID" ColumnName="Pedido_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Registro_Pedidos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Registro_Pedidos">
+        <MappingFragment StoreEntitySet="Registro_Pedidos">
+          <ScalarProperty Name="EstadoProductivo_ID" ColumnName="EstadoProductivo_ID" />
+          <ScalarProperty Name="EstadoEntrega_ID" ColumnName="EstadoEntrega_ID" />
+          <ScalarProperty Name="Zona_ID" ColumnName="Zona_ID" />
+          <ScalarProperty Name="Empleado_ID" ColumnName="Empleado_ID" />
+          <ScalarProperty Name="Numero_Pedido" ColumnName="Numero_Pedido" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Ciudad_ID" ColumnName="Ciudad_ID" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaPedidos002">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaPedidos002">
+        <MappingFragment StoreEntitySet="VistaPedidos002">
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="CantidadPendiente" ColumnName="CantidadPendiente" />
+          <ScalarProperty Name="CantidadOriginal" ColumnName="CantidadOriginal" />
+          <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+          <ScalarProperty Name="CiudadID" ColumnName="CiudadID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="NumeroPedido" ColumnName="NumeroPedido" />
+          <ScalarProperty Name="EstadoProductivoPedido" ColumnName="EstadoProductivoPedido" />
+          <ScalarProperty Name="EstadoEnvioPedido" ColumnName="EstadoEnvioPedido" />
+          <ScalarProperty Name="EstadoEnvio" ColumnName="EstadoEnvio" />
+          <ScalarProperty Name="EstadoViaje" ColumnName="EstadoViaje" />
+          <ScalarProperty Name="EstadoProductivo" ColumnName="EstadoProductivo" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="EstadoPedido" ColumnName="EstadoPedido" />
+          <ScalarProperty Name="Zona" ColumnName="Zona" />
+          <ScalarProperty Name="Zona_ID" ColumnName="Zona_ID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="PedidoID" ColumnName="PedidoID" />
+          <ScalarProperty Name="FechaPedido" ColumnName="FechaPedido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MANTENIMIENTOREGISTROCUERPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MANTENIMIENTOREGISTROCUERPO">
+        <MappingFragment StoreEntitySet="MANTENIMIENTOREGISTROCUERPO">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Responsable_ID" ColumnName="Responsable_ID" />
+          <ScalarProperty Name="FechaLimite" ColumnName="FechaLimite" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MantenimientoTarea_ID" ColumnName="MantenimientoTarea_ID" />
+          <ScalarProperty Name="MantenimientoRegistro_ID" ColumnName="MantenimientoRegistro_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ciudades">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Ciudades">
+        <MappingFragment StoreEntitySet="Ciudades">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Puestos">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Puestos">
+        <MappingFragment StoreEntitySet="Puestos">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaResumenMaestro">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaResumenMaestro">
+        <MappingFragment StoreEntitySet="VistaResumenMaestro">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CliProvID" ColumnName="CliProvID" />
+          <ScalarProperty Name="MedioPago" ColumnName="MedioPago" />
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+          <ScalarProperty Name="CliProv" ColumnName="CliProv" />
+          <ScalarProperty Name="Numero_comprobante" ColumnName="Numero comprobante" />
+          <ScalarProperty Name="Comprobante" ColumnName="Comprobante" />
+          <ScalarProperty Name="Movimiento" ColumnName="Movimiento" />
+          <ScalarProperty Name="Mes" ColumnName="Mes" />
+          <ScalarProperty Name="MesNumero" ColumnName="MesNumero" />
+          <ScalarProperty Name="Año" ColumnName="Año" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleados">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Empleados">
+        <MappingFragment StoreEntitySet="Empleados">
+          <ScalarProperty Name="Zona_ID" ColumnName="Zona_ID" />
+          <ScalarProperty Name="ClaveITWins" ColumnName="ClaveITWins" />
+          <ScalarProperty Name="Seccion_ID" ColumnName="Seccion_ID" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Puesto_ID" ColumnName="Puesto_ID" />
+          <ScalarProperty Name="Fecha_Baja" ColumnName="Fecha_Baja" />
+          <ScalarProperty Name="Fecha_Alta" ColumnName="Fecha_Alta" />
+          <ScalarProperty Name="Fecha_Nacimiento" ColumnName="Fecha_Nacimiento" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOVIMIENTOCUENTACORRIENTE">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MOVIMIENTOCUENTACORRIENTE">
+        <MappingFragment StoreEntitySet="MOVIMIENTOCUENTACORRIENTE">
+          <ScalarProperty Name="CajaUsuario_ID" ColumnName="CajaUsuario_ID" />
+          <ScalarProperty Name="MedioPago_ID" ColumnName="MedioPago_ID" />
+          <ScalarProperty Name="NumeroComprobante" ColumnName="NumeroComprobante" />
+          <ScalarProperty Name="Estado_ID" ColumnName="Estado_ID" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Tipo_Gasto_ID" ColumnName="Tipo_Gasto_ID" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOVIMIENTOCUENTACORRIENTECUERPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MOVIMIENTOCUENTACORRIENTECUERPO">
+        <MappingFragment StoreEntitySet="MOVIMIENTOCUENTACORRIENTECUERPO">
+          <ScalarProperty Name="ImporteAfectado" ColumnName="ImporteAfectado" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="MovimientoCuentaCorriente_ID" ColumnName="MovimientoCuentaCorriente_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INGRESOMERCADERIA_MEMOS">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.INGRESOMERCADERIA_MEMOS">
+        <MappingFragment StoreEntitySet="INGRESOMERCADERIA_MEMOS">
+          <ScalarProperty Name="ListaPrecio" ColumnName="ListaPrecio" />
+          <ScalarProperty Name="Proveedor" ColumnName="Proveedor" />
+          <ScalarProperty Name="ListaPrecio_ID" ColumnName="ListaPrecio_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Fecha_Guardado" ColumnName="Fecha_Guardado" />
+          <ScalarProperty Name="LetraComprobante" ColumnName="LetraComprobante" />
+          <ScalarProperty Name="NumeroComprobante" ColumnName="NumeroComprobante" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="ImporteTotal" ColumnName="ImporteTotal" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Proveedor_ID" ColumnName="Proveedor_ID" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INGRESOMERCADERIACUERPO_MEMOS">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.INGRESOMERCADERIACUERPO_MEMOS">
+        <MappingFragment StoreEntitySet="INGRESOMERCADERIACUERPO_MEMOS">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Articulo" ColumnName="Articulo" />
+          <ScalarProperty Name="PrecioOriginal" ColumnName="PrecioOriginal" />
+          <ScalarProperty Name="CostoOriginal" ColumnName="CostoOriginal" />
+          <ScalarProperty Name="CodigoBarra" ColumnName="CodigoBarra" />
+          <ScalarProperty Name="ImporteTotal" ColumnName="ImporteTotal" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Articulo_ID" ColumnName="Articulo_ID" />
+          <ScalarProperty Name="Ingreso_ID" ColumnName="Ingreso_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="ID_Licencia" ColumnName="ID_Licencia" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="Zona_ID" ColumnName="Zona_ID" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Cliente_Usuario" ColumnName="Cliente_Usuario" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Ciudad_ID" ColumnName="Ciudad_ID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VISTA_RESUMENCUENTA001">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VISTA_RESUMENCUENTA001">
+        <MappingFragment StoreEntitySet="VISTA_RESUMENCUENTA001">
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIORESTRICCION">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.USUARIORESTRICCION">
+        <MappingFragment StoreEntitySet="USUARIORESTRICCION">
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAJA">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.CAJA">
+        <MappingFragment StoreEntitySet="CAJA">
+          <ScalarProperty Name="Numerador" ColumnName="Numerador" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaCajaMovimientos001">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaCajaMovimientos001">
+        <MappingFragment StoreEntitySet="VistaCajaMovimientos001">
+          <ScalarProperty Name="CajaUsuarioID" ColumnName="CajaUsuarioID" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="NumeroComprobante" ColumnName="NumeroComprobante" />
+          <ScalarProperty Name="MedioPago" ColumnName="MedioPago" />
+          <ScalarProperty Name="MedioPagoID" ColumnName="MedioPagoID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="ModuloID" ColumnName="ModuloID" />
+          <ScalarProperty Name="Movimiento" ColumnName="Movimiento" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAJAUSUARIO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.CAJAUSUARIO">
+        <MappingFragment StoreEntitySet="CAJAUSUARIO">
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Cheque" ColumnName="Cheque" />
+          <ScalarProperty Name="Debito" ColumnName="Debito" />
+          <ScalarProperty Name="Transferencia" ColumnName="Transferencia" />
+          <ScalarProperty Name="Efectivo" ColumnName="Efectivo" />
+          <ScalarProperty Name="Ingresado" ColumnName="Ingresado" />
+          <ScalarProperty Name="Retirado" ColumnName="Retirado" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCierre" ColumnName="FechaCierre" />
+          <ScalarProperty Name="FechaApertura" ColumnName="FechaApertura" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Caja_ID" ColumnName="Caja_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaCajaMovimientosTotales001">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.VistaCajaMovimientosTotales001">
+        <MappingFragment StoreEntitySet="VistaCajaMovimientosTotales001">
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Cheque" ColumnName="Cheque" />
+          <ScalarProperty Name="Transferencia" ColumnName="Transferencia" />
+          <ScalarProperty Name="CuentaCorriente" ColumnName="CuentaCorriente" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Debito" ColumnName="Debito" />
+          <ScalarProperty Name="Efectivo" ColumnName="Efectivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAJAMOVIMIENTO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.CAJAMOVIMIENTO">
+        <MappingFragment StoreEntitySet="CAJAMOVIMIENTO">
+          <ScalarProperty Name="MedioPago_ID" ColumnName="MedioPago_ID" />
+          <ScalarProperty Name="NumeroComprobante" ColumnName="NumeroComprobante" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="CajaUsuario_ID" ColumnName="CajaUsuario_ID" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="Modulo_ID" ColumnName="Modulo_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LISTAPRECIOCONFIG">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.LISTAPRECIOCONFIG">
+        <MappingFragment StoreEntitySet="LISTAPRECIOCONFIG">
+          <ScalarProperty Name="ActualizaCostoEnTodasListas" ColumnName="ActualizaCostoEnTodasListas" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TICKETCUERPO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TICKETCUERPO">
+        <MappingFragment StoreEntitySet="TICKETCUERPO">
+          <ScalarProperty Name="ImporteTotal" ColumnName="ImporteTotal" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Insumo_ID" ColumnName="Insumo_ID" />
+          <ScalarProperty Name="Ticket_ID" ColumnName="Ticket_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MEDIOPAGO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.MEDIOPAGO">
+        <MappingFragment StoreEntitySet="MEDIOPAGO">
+          <ScalarProperty Name="Porcentaje" ColumnName="Porcentaje" />
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TICKET">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TICKET">
+        <MappingFragment StoreEntitySet="TICKET">
+          <ScalarProperty Name="CajaUsuario_ID" ColumnName="CajaUsuario_ID" />
+          <ScalarProperty Name="Entregado" ColumnName="Entregado" />
+          <ScalarProperty Name="ImporteAfectado" ColumnName="ImporteAfectado" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="ImporteTotal" ColumnName="ImporteTotal" />
+          <ScalarProperty Name="Movimiento_ID" ColumnName="Movimiento_ID" />
+          <ScalarProperty Name="Letra" ColumnName="Letra" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MedioPago" ColumnName="MedioPago" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="NumeroTicket" ColumnName="NumeroTicket" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TICKETMEDIOPAGO">
+      <EntityTypeMapping TypeName="Pcodin_SinlaccModel.TICKETMEDIOPAGO">
+        <MappingFragment StoreEntitySet="TICKETMEDIOPAGO">
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="MedioPago_ID" ColumnName="MedioPago_ID" />
+          <ScalarProperty Name="Ticket_ID" ColumnName="Ticket_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

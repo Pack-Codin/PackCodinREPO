@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSrptMaestroDePedidos" targetNamespace="http://tempuri.org/DSrptMaestroDePedidos.xsd" xmlns:mstns="http://tempuri.org/DSrptMaestroDePedidos.xsd" xmlns="http://tempuri.org/DSrptMaestroDePedidos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSrptMaestroDePedidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSrptMaestroDePedidos" msprop:Generator_UserDSName="DSrptMaestroDePedidos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MaestroPedidos" msprop:Generator_TableClassName="MaestroPedidosDataTable" msprop:Generator_TableVarName="tableMaestroPedidos" msprop:Generator_TablePropName="MaestroPedidos" msprop:Generator_RowDeletingName="MaestroPedidosRowDeleting" msprop:Generator_RowChangingName="MaestroPedidosRowChanging" msprop:Generator_RowEvHandlerName="MaestroPedidosRowChangeEventHandler" msprop:Generator_RowDeletedName="MaestroPedidosRowDeleted" msprop:Generator_UserTableName="MaestroPedidos" msprop:Generator_RowChangedName="MaestroPedidosRowChanged" msprop:Generator_RowEvArgName="MaestroPedidosRowChangeEvent" msprop:Generator_RowClassName="MaestroPedidosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad_x0020_total" msprop:Generator_ColumnVarNameInTable="columnCantidad_total" msprop:Generator_ColumnPropNameInRow="Cantidad_total" msprop:Generator_ColumnPropNameInTable="Cantidad_totalColumn" msprop:Generator_UserColumnName="Cantidad total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cantidad_x0020_pend" msprop:Generator_ColumnVarNameInTable="columnCantidad_pend" msprop:Generator_ColumnPropNameInRow="Cantidad_pend" msprop:Generator_ColumnPropNameInTable="Cantidad_pendColumn" msprop:Generator_UserColumnName="Cantidad pend" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cantidad_x0020_entreg" msprop:Generator_ColumnVarNameInTable="columnCantidad_entreg" msprop:Generator_ColumnPropNameInRow="Cantidad_entreg" msprop:Generator_ColumnPropNameInTable="Cantidad_entregColumn" msprop:Generator_UserColumnName="Cantidad entreg" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nro_x0020_pedido" msprop:Generator_ColumnVarNameInTable="columnNro_pedido" msprop:Generator_ColumnPropNameInRow="Nro_pedido" msprop:Generator_ColumnPropNameInTable="Nro_pedidoColumn" msprop:Generator_UserColumnName="Nro pedido" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad_x0020_total_x0020_ref" msprop:Generator_ColumnVarNameInTable="columnCantidad_total_ref" msprop:Generator_ColumnPropNameInRow="Cantidad_total_ref" msprop:Generator_ColumnPropNameInTable="Cantidad_total_refColumn" msprop:Generator_UserColumnName="Cantidad total ref" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cantidad_x0020_pend_x0020_ref" msprop:Generator_ColumnVarNameInTable="columnCantidad_pend_ref" msprop:Generator_ColumnPropNameInRow="Cantidad_pend_ref" msprop:Generator_ColumnPropNameInTable="Cantidad_pend_refColumn" msprop:Generator_UserColumnName="Cantidad pend ref" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cantidad_x0020_entreg_x0020_ref" msprop:Generator_ColumnVarNameInTable="columnCantidad_entreg_ref" msprop:Generator_ColumnPropNameInRow="Cantidad_entreg_ref" msprop:Generator_ColumnPropNameInTable="Cantidad_entreg_refColumn" msprop:Generator_UserColumnName="Cantidad entreg ref" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Logo" msprop:Generator_ColumnVarNameInTable="columnLogo" msprop:Generator_ColumnPropNameInRow="Logo" msprop:Generator_ColumnPropNameInTable="LogoColumn" msprop:Generator_UserColumnName="Logo" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VistaDetalleMovimiento" msprop:Generator_TableClassName="VistaDetalleMovimientoDataTable" msprop:Generator_TableVarName="tableVistaDetalleMovimiento" msprop:Generator_TablePropName="VistaDetalleMovimiento" msprop:Generator_RowDeletingName="VistaDetalleMovimientoRowDeleting" msprop:Generator_RowChangingName="VistaDetalleMovimientoRowChanging" msprop:Generator_RowEvHandlerName="VistaDetalleMovimientoRowChangeEventHandler" msprop:Generator_RowDeletedName="VistaDetalleMovimientoRowDeleted" msprop:Generator_UserTableName="VistaDetalleMovimiento" msprop:Generator_RowChangedName="VistaDetalleMovimientoRowChanged" msprop:Generator_RowEvArgName="VistaDetalleMovimientoRowChangeEvent" msprop:Generator_RowClassName="VistaDetalleMovimientoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:long" minOccurs="0" />
+              <xs:element name="Comprobante" msprop:Generator_ColumnVarNameInTable="columnComprobante" msprop:Generator_ColumnPropNameInRow="Comprobante" msprop:Generator_ColumnPropNameInTable="ComprobanteColumn" msprop:Generator_UserColumnName="Comprobante" type="xs:string" minOccurs="0" />
+              <xs:element name="CodComprobante" msprop:Generator_ColumnVarNameInTable="columnCodComprobante" msprop:Generator_ColumnPropNameInRow="CodComprobante" msprop:Generator_ColumnPropNameInTable="CodComprobanteColumn" msprop:Generator_UserColumnName="CodComprobante" type="xs:string" minOccurs="0" />
+              <xs:element name="Articulo" msprop:Generator_ColumnVarNameInTable="columnArticulo" msprop:Generator_ColumnPropNameInRow="Articulo" msprop:Generator_ColumnPropNameInTable="ArticuloColumn" msprop:Generator_UserColumnName="Articulo" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NumeroComprobante" msprop:Generator_ColumnVarNameInTable="columnNumeroComprobante" msprop:Generator_ColumnPropNameInRow="NumeroComprobante" msprop:Generator_ColumnPropNameInTable="NumeroComprobanteColumn" msprop:Generator_UserColumnName="NumeroComprobante" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

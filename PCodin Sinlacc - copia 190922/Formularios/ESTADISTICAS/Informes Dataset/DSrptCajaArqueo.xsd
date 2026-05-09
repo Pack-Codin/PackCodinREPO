@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSrptCajaArqueo" targetNamespace="http://tempuri.org/DSrptCajaArqueo.xsd" xmlns:mstns="http://tempuri.org/DSrptCajaArqueo.xsd" xmlns="http://tempuri.org/DSrptCajaArqueo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSrptCajaArqueo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSrptCajaArqueo" msprop:Generator_UserDSName="DSrptCajaArqueo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptCajaArqueo" msprop:Generator_TableClassName="rptCajaArqueoDataTable" msprop:Generator_TableVarName="tablerptCajaArqueo" msprop:Generator_TablePropName="rptCajaArqueo" msprop:Generator_RowDeletingName="rptCajaArqueoRowDeleting" msprop:Generator_RowChangingName="rptCajaArqueoRowChanging" msprop:Generator_RowEvHandlerName="rptCajaArqueoRowChangeEventHandler" msprop:Generator_RowDeletedName="rptCajaArqueoRowDeleted" msprop:Generator_UserTableName="rptCajaArqueo" msprop:Generator_RowChangedName="rptCajaArqueoRowChanged" msprop:Generator_RowEvArgName="rptCajaArqueoRowChangeEvent" msprop:Generator_RowClassName="rptCajaArqueoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Movimiento" msprop:Generator_ColumnVarNameInTable="columnMovimiento" msprop:Generator_ColumnPropNameInRow="Movimiento" msprop:Generator_ColumnPropNameInTable="MovimientoColumn" msprop:Generator_UserColumnName="Movimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="MedioPago" msprop:Generator_ColumnVarNameInTable="columnMedioPago" msprop:Generator_ColumnPropNameInRow="MedioPago" msprop:Generator_ColumnPropNameInTable="MedioPagoColumn" msprop:Generator_UserColumnName="MedioPago" type="xs:string" minOccurs="0" />
+              <xs:element name="NumeroComprobante" msprop:Generator_ColumnVarNameInTable="columnNumeroComprobante" msprop:Generator_ColumnPropNameInRow="NumeroComprobante" msprop:Generator_ColumnPropNameInTable="NumeroComprobanteColumn" msprop:Generator_UserColumnName="NumeroComprobante" type="xs:string" minOccurs="0" />
+              <xs:element name="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnPropNameInTable="ImporteColumn" msprop:Generator_UserColumnName="Importe" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

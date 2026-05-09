@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AGMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ARTICULO">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="60" />
+    <Property Name="CentroOperativo" Type="varchar" MaxLength="15" />
+    <Property Name="CtrlStock" Type="smallint" />
+    <Property Name="StockMaximo" Type="money" />
+    <Property Name="StockMinimo" Type="money" />
+    <Property Name="UnidadMedida" Type="varchar" MaxLength="4" />
+    <Property Name="AlicuotaIVA" Type="varchar" MaxLength="10" />
+    <Property Name="AlicuotaPercepcionDGR" Type="varchar" MaxLength="10" />
+    <Property Name="Origen" Type="varchar" MaxLength="40" />
+    <Property Name="Ubicacion" Type="varchar" MaxLength="40" />
+    <Property Name="Observacion" Type="varchar" MaxLength="2000" />
+    <Property Name="AlicuotaImpInterno" Type="money" />
+    <Property Name="UnidadMedidaEquiv" Type="money" Nullable="false" />
+    <Property Name="Redondeo" Type="int" />
+    <Property Name="ActualContabilidadCosto" Type="int" />
+    <Property Name="ActualStock" Type="int" />
+    <Property Name="AlicuotaPercepcion" Type="varchar" MaxLength="10" />
+    <Property Name="ActualizaPrecio" Type="int" />
+    <Property Name="Visible" Type="int" />
+    <Property Name="Material" Type="varchar" MaxLength="40" />
+    <Property Name="Plano" Type="varchar" MaxLength="20" />
+    <Property Name="LargoCorte" Type="money" />
+    <Property Name="AnchoCorte" Type="money" />
+    <Property Name="FactorConversion" Type="money" />
+    <Property Name="Peso" Type="money" />
+    <Property Name="ArticuloAnterior" Type="varchar" MaxLength="12" />
+    <Property Name="ArticuloPosterior" Type="varchar" MaxLength="12" />
+    <Property Name="TipoProduccion" Type="int" />
+    <Property Name="EmiteOrdenProduccion" Type="int" />
+    <Property Name="Repuesto" Type="int" />
+    <Property Name="AnticipacionProduccion" Type="money" />
+    <Property Name="LoteEconomico" Type="money" />
+    <Property Name="ImporteImpInterno" Type="money" />
+    <Property Name="Texto1" Type="varchar" MaxLength="50" />
+    <Property Name="Texto2" Type="varchar" MaxLength="50" />
+    <Property Name="Texto3" Type="varchar" MaxLength="50" />
+    <Property Name="Texto4" Type="varchar" MaxLength="50" />
+    <Property Name="Texto5" Type="varchar" MaxLength="50" />
+    <Property Name="Importe1" Type="money" />
+    <Property Name="Importe2" Type="money" />
+    <Property Name="Importe3" Type="money" />
+    <Property Name="Marca1" Type="int" />
+    <Property Name="Marca2" Type="int" />
+    <Property Name="Marca3" Type="int" />
+    <Property Name="Fecha1" Type="datetime" />
+    <Property Name="Fecha2" Type="datetime" />
+    <Property Name="UnidadConversion" Type="varchar" MaxLength="20" />
+    <Property Name="ArticuloBase" Type="varchar" MaxLength="12" />
+    <Property Name="Texto6" Type="varchar" MaxLength="50" />
+    <Property Name="Texto7" Type="varchar" MaxLength="50" />
+    <Property Name="Texto8" Type="varchar" MaxLength="50" />
+    <Property Name="Importe4" Type="money" />
+    <Property Name="Importe5" Type="money" />
+    <Property Name="Importe6" Type="money" />
+    <Property Name="Importe7" Type="money" />
+    <Property Name="Importe8" Type="money" />
+    <Property Name="ArticuloInterno" Type="int" />
+    <Property Name="PorcentajeRecupero" Type="money" />
+    <Property Name="PorcentajeDerecho" Type="money" />
+    <Property Name="Kilos" Type="money" />
+    <Property Name="ArticuloPrincipioActivo" Type="varchar" MaxLength="4" />
+    <Property Name="Fitosanitario" Type="int" />
+    <Property Name="_RVersion" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="ValidaValeCompra" Type="int" />
+    <Property Name="CalculaCantidadEquiv" Type="int" />
+    <Property Name="CoeficienteReintegro" Type="money" />
+    <Property Name="CodigoUnidadMedidaEquiv" Type="varchar" MaxLength="4" />
+    <Property Name="CalculaPercepcionIVA" Type="int" />
+    <Property Name="CalculaPercepcionIIBB" Type="int" />
+    <Property Name="DiasVencimiento" Type="int" />
+    <Property Name="NombreFantasia" Type="varchar" MaxLength="60" />
+    <Property Name="SemillaFiscalizada" Type="int" />
+    <Property Name="ArticuloCategoria" Type="int" />
+    <Property Name="ArticuloVariedad" Type="varchar" MaxLength="4" />
+    <Property Name="Grano" Type="varchar" MaxLength="4" />
+    <Property Name="Color" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DEPOSITO">
+    <Key>
+      <PropertyRef Name="IDTabla" />
+    </Key>
+    <Property Name="IDTabla" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Codigo" Type="varchar" MaxLength="8" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="40" />
+    <Property Name="Planta" Type="varchar" MaxLength="4" />
+    <Property Name="Lugar" Type="varchar" MaxLength="4" />
+    <Property Name="Capacidad" Type="money" />
+    <Property Name="UnidadMedida" Type="varchar" MaxLength="4" />
+    <Property Name="Tipo" Type="varchar" MaxLength="40" />
+    <Property Name="Observacion" Type="varchar" MaxLength="500" />
+    <Property Name="Texto1" Type="varchar" MaxLength="40" />
+    <Property Name="Visible" Type="int" />
+    <Property Name="_RVersion" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="DepositoCapacidad" Type="bigint" />
+  </EntityType>
+  <EntityType Name="DEPOSITOCAPACIDAD">
+    <Key>
+      <PropertyRef Name="IDTabla" />
+    </Key>
+    <Property Name="IDTabla" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Cantidad" Type="int" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Clave" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Activo" Type="varchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'AGM.dbo.Vst_Deposito' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Vst_Deposito">
+    <Key>
+      <PropertyRef Name="ExistenciaFardos" />
+      <PropertyRef Name="ExistenciaPallet" />
+    </Key>
+    <Property Name="Deposito" Type="bigint" />
+    <Property Name="DescDepo" Type="varchar" MaxLength="40" />
+    <Property Name="Fila" Type="varchar" MaxLength="1" />
+    <Property Name="DepositoCapacidad" Type="bigint" />
+    <Property Name="ExistenciaFardos" Type="money" Nullable="false" />
+    <Property Name="CapacidadDepositoPallet" Type="money" />
+    <Property Name="ExistenciaPallet" Type="money" Nullable="false" />
+    <Property Name="Contiene" Type="varchar(max)" />
+    <Property Name="Disponible" Type="money" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'AGM.dbo.Vst_Deposito2' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Vst_Deposito2">
+    <Key>
+      <PropertyRef Name="Total" />
+      <PropertyRef Name="Pallets" />
+      <PropertyRef Name="SerieLote" />
+      <PropertyRef Name="FechaVencimiento" />
+      <PropertyRef Name="Existencia" />
+      <PropertyRef Name="PendEntrega" />
+      <PropertyRef Name="PendRecibir" />
+      <PropertyRef Name="StockReal" />
+      <PropertyRef Name="IDPauta" />
+      <PropertyRef Name="DescCalidad" />
+      <PropertyRef Name="DescCalidad2" />
+    </Key>
+    <Property Name="DescPlanta" Type="varchar" MaxLength="40" />
+    <Property Name="Total" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="DescCentroOperativo" Type="varchar" MaxLength="255" />
+    <Property Name="Articulo" Type="varchar" MaxLength="12" />
+    <Property Name="Pallets" Type="money" Nullable="false" />
+    <Property Name="DescArticulo" Type="varchar" MaxLength="60" />
+    <Property Name="SerieLote" Type="varchar" MaxLength="120" Nullable="false" />
+    <Property Name="FechaVencimiento" Type="datetime" Nullable="false" />
+    <Property Name="Deposito" Type="bigint" />
+    <Property Name="DescDepo" Type="varchar" MaxLength="40" />
+    <Property Name="UnidadMedida" Type="varchar" MaxLength="4" />
+    <Property Name="Existencia" Type="money" Nullable="false" />
+    <Property Name="PendEntrega" Type="int" Nullable="false" />
+    <Property Name="PendRecibir" Type="int" Nullable="false" />
+    <Property Name="StockReal" Type="money" Nullable="false" />
+    <Property Name="IDPauta" Type="bigint" Nullable="false" />
+    <Property Name="DescCalidad" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="DescCalidad2" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Color" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cantidad" Type="int" />
+  </EntityType>
+  <Association Name="FK_ARTICULO_ARTICULOAnterior">
+    <End Role="ARTICULO" Type="Self.ARTICULO" Multiplicity="0..1" />
+    <End Role="ARTICULO1" Type="Self.ARTICULO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICULO">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="ARTICULO1">
+        <PropertyRef Name="ArticuloAnterior" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ARTICULO_ARTICULOBase">
+    <End Role="ARTICULO" Type="Self.ARTICULO" Multiplicity="0..1" />
+    <End Role="ARTICULO1" Type="Self.ARTICULO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICULO">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="ARTICULO1">
+        <PropertyRef Name="ArticuloBase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ARTICULO_ARTICULOPosterior">
+    <End Role="ARTICULO" Type="Self.ARTICULO" Multiplicity="0..1" />
+    <End Role="ARTICULO1" Type="Self.ARTICULO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICULO">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="ARTICULO1">
+        <PropertyRef Name="ArticuloPosterior" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DEPOSITO_DEPOSITOCAPACIDAD">
+    <End Role="DEPOSITOCAPACIDAD" Type="Self.DEPOSITOCAPACIDAD" Multiplicity="0..1" />
+    <End Role="DEPOSITO" Type="Self.DEPOSITO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPOSITOCAPACIDAD">
+        <PropertyRef Name="IDTabla" />
+      </Principal>
+      <Dependent Role="DEPOSITO">
+        <PropertyRef Name="DepositoCapacidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AGMModelStoreContainer">
+    <EntitySet Name="ARTICULO" EntityType="Self.ARTICULO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DEPOSITO" EntityType="Self.DEPOSITO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DEPOSITOCAPACIDAD" EntityType="Self.DEPOSITOCAPACIDAD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vst_Deposito" EntityType="Self.Vst_Deposito" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Vst_Deposito].[Deposito] AS [Deposito], 
+    [Vst_Deposito].[DescDepo] AS [DescDepo], 
+    [Vst_Deposito].[Fila] AS [Fila], 
+    [Vst_Deposito].[DepositoCapacidad] AS [DepositoCapacidad], 
+    [Vst_Deposito].[ExistenciaFardos] AS [ExistenciaFardos], 
+    [Vst_Deposito].[CapacidadDepositoPallet] AS [CapacidadDepositoPallet], 
+    [Vst_Deposito].[ExistenciaPallet] AS [ExistenciaPallet], 
+    [Vst_Deposito].[Contiene] AS [Contiene], 
+    [Vst_Deposito].[Disponible] AS [Disponible]
+    FROM [dbo].[Vst_Deposito] AS [Vst_Deposito]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Vst_Deposito2" EntityType="Self.Vst_Deposito2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Vst_Deposito2].[DescPlanta] AS [DescPlanta], 
+    [Vst_Deposito2].[Total] AS [Total], 
+    [Vst_Deposito2].[DescCentroOperativo] AS [DescCentroOperativo], 
+    [Vst_Deposito2].[Articulo] AS [Articulo], 
+    [Vst_Deposito2].[Pallets] AS [Pallets], 
+    [Vst_Deposito2].[DescArticulo] AS [DescArticulo], 
+    [Vst_Deposito2].[SerieLote] AS [SerieLote], 
+    [Vst_Deposito2].[FechaVencimiento] AS [FechaVencimiento], 
+    [Vst_Deposito2].[Deposito] AS [Deposito], 
+    [Vst_Deposito2].[DescDepo] AS [DescDepo], 
+    [Vst_Deposito2].[UnidadMedida] AS [UnidadMedida], 
+    [Vst_Deposito2].[Existencia] AS [Existencia], 
+    [Vst_Deposito2].[PendEntrega] AS [PendEntrega], 
+    [Vst_Deposito2].[PendRecibir] AS [PendRecibir], 
+    [Vst_Deposito2].[StockReal] AS [StockReal], 
+    [Vst_Deposito2].[IDPauta] AS [IDPauta], 
+    [Vst_Deposito2].[DescCalidad] AS [DescCalidad], 
+    [Vst_Deposito2].[DescCalidad2] AS [DescCalidad2], 
+    [Vst_Deposito2].[Color] AS [Color], 
+    [Vst_Deposito2].[Cantidad] AS [Cantidad]
+    FROM [dbo].[Vst_Deposito2] AS [Vst_Deposito2]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_ARTICULO_ARTICULOAnterior" Association="Self.FK_ARTICULO_ARTICULOAnterior">
+      <End Role="ARTICULO" EntitySet="ARTICULO" />
+      <End Role="ARTICULO1" EntitySet="ARTICULO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ARTICULO_ARTICULOBase" Association="Self.FK_ARTICULO_ARTICULOBase">
+      <End Role="ARTICULO" EntitySet="ARTICULO" />
+      <End Role="ARTICULO1" EntitySet="ARTICULO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ARTICULO_ARTICULOPosterior" Association="Self.FK_ARTICULO_ARTICULOPosterior">
+      <End Role="ARTICULO" EntitySet="ARTICULO" />
+      <End Role="ARTICULO1" EntitySet="ARTICULO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DEPOSITO_DEPOSITOCAPACIDAD" Association="Self.FK_DEPOSITO_DEPOSITOCAPACIDAD">
+      <End Role="DEPOSITOCAPACIDAD" EntitySet="DEPOSITOCAPACIDAD" />
+      <End Role="DEPOSITO" EntitySet="DEPOSITO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

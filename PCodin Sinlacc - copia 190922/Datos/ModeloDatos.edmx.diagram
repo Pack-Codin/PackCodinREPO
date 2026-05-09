@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83a2a2ba26ed49fb8b0f57f0fe15f9c1" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Categorias_InsPro" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.d" Width="1.5" PointX="0.5" PointY="1.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_Lista_Insumos" Width="1.5" PointX="2.875" PointY="8.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_Pedido_Cuerpo" Width="1.5" PointX="14.125" PointY="1.75" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Pedido_Cuerpo_Medidas_Producto" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Estado_Ord_Carga" Width="1.5" PointX="10.625" PointY="6.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Tipo_Noticacion" Width="1.5" PointX="3.375" PointY="14.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Acceso_Usuario" Width="1.5" PointX="18.625" PointY="0.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Menu_Item" Width="1.5" PointX="0.75" PointY="16.875" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Acceso_Usuario_Menu_Item" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Control_Backup" Width="1.5" PointX="18.625" PointY="15.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_Prodocuto_Afec_OrdenCarga" Width="1.5" PointX="23.125" PointY="14" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Estado_ExistenciaProductoTerminado" Width="1.5" PointX="10.625" PointY="16.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Tipo_Cliente" Width="1.5" PointX="5.375" PointY="23.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Historial_Insumos" Width="1.5" PointX="15.5" PointY="0.5" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Historial_Insumos_Medidas_Producto" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Tipo_Gasto" Width="1.5" PointX="0.875" PointY="20.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Movimientos_Produccion" Width="1.5" PointX="12.125" PointY="25.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Licencia" Width="1.5" PointX="0.75" PointY="13" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Gastos" Width="1.5" PointX="3.125" PointY="20.25" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Gastos_Tipo_Gasto" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Modulos" Width="1.5" PointX="0.75" PointY="23.125" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Menu_Item_Modulos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Orden_Produccion1" Width="1.5" PointX="17.875" PointY="4.375" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Produccion_Estado_Ord_Carga" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_OrdenProduccion_Cuerpo" Width="1.5" PointX="21.125" PointY="3.5" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_OrdenProduccion_Cuerpo_Orden_Produccion" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.OrdenProduccion_Cuerpo" Width="1.5" PointX="21.125" PointY="0.75" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenProduccion_Cuerpo_Orden_Produccion" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Seccion" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.OrdenProduccionParteCuerpo" Width="2.75" PointX="30.625" PointY="5.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Productos_Insumos" Width="1.5" PointX="11.875" PointY="0.75" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Categorias_InsPro" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Historial_Insumos_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Medidas_Producto1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenProduccion_Cuerpo_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_OrdenProduccion_Cuerpo_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Pedido_Cuerpo_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Prodocuto_Afec_OrdenCarga_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.ExistenciaProducto_ExistenciaInsumo" Width="1.5" PointX="38.125" PointY="12.25" IsExpanded="false" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_ExistenciaProducto_ExistenciaInsumo_Orden_Produccion" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.ConfigDiasProduccion" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Vista_CalcularPuntoPedido" Width="1.5" PointX="3.5" PointY="1.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Seccion_Circuito" Width="1.5" PointX="18.25" PointY="6.25" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Seccion_Circuito_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Seccion_Circuito_Productos_Insumos1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Seccion_Circuito_Seccion" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Orden_Produccion_Parte" Width="1.5" PointX="23.375" PointY="8.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Produccion_Parte_OrdenProduccion_Cuerpo" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Produccion_Parte_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Produccion_Parte_Seccion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenProduccionParteCuerpo_Orden_Produccion_Parte" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Vista_OrdenProduccionParte" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Vista_Stock" Width="1.5" PointX="7.375" PointY="3.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Vista_SotckInsumos" Width="1.5" PointX="7.625" PointY="8.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.StockFecha" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Moneda" Width="1.5" PointX="17.625" PointY="10" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MonedaCotizacion" Width="1.5" PointX="19.875" PointY="9.875" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MonedaCotizacion_Moneda" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_DepositoSeleccionado" Width="1.5" PointX="9.375" PointY="2.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Existencia_Insumos" Width="1.5" PointX="17.5" PointY="16.875" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Estado_Ord_Carga" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Estado_Ord_Carga1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Movimientos_Produccion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_ExistenciaProducto_ExistenciaInsumo_Existencia_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_Orden_Carga_Cuerpo" Width="1.5" PointX="23.375" PointY="0.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Orden_Carga_Cuerpo_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Orden_Carga_Cuerpo_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Formula_Producto" Width="1.5" PointX="14.125" PointY="0.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Formula_Producto_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Formula_Producto_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Formula_Producto_Productos_Insumos1" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Producto_Cliente" Width="1.5" PointX="15.125" PointY="14" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Producto_Cliente_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Insumo_Proveedor" Width="1.5" PointX="21.125" PointY="16" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Insumo_Proveedor_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Usuarios" Width="1.5" PointX="10.5" PointY="8.25" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Acceso_Usuario_Usuarios" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Control_Backup_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Informes" Width="1.5" PointX="3" PointY="22.875" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK__Informes__Modulo__62CF9BA3" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaProduccionPorEmpleado" Width="1.5" PointX="5.375" PointY="14.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.ClientesLogo" Width="1.5" PointX="7.375" PointY="16.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.PcnConfiguraciones" Width="1.5" PointX="12.75" PointY="20.25" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Configuracion_Modulos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_PcnConfiguraciones_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Notificaciones" Width="1.5" PointX="20.75" PointY="6" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Notificaciones_Tipo_Noticacion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Notificaciones_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TEMA" Width="1.5" PointX="15.5" PointY="4.125" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.USUARIOTEMA" Width="1.5" PointX="17.75" PointY="13" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_USUARIOTEMA_TEMA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_USUARIOTEMA_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.INGRESOMERCADERIA" Width="2" PointX="9.875" PointY="18.25" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.INGRESOMERCADERIACUERPO" Width="1.5" PointX="15.125" PointY="17.625" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MOVIMIENTOS" Width="1.5" PointX="7.625" PointY="21.375" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_INGRESOMERCADERIA_MOVIMIENTOS" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_INGRESOMERCADERIACUERPO_INGRESOMERCADERIA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_INGRESOMERCADERIACUERPO_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOS_Modulos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.LISTAPRECIO" Width="1.5" PointX="11.875" PointY="31.5" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.LISTAPRECIOCUERPO" Width="1.5" PointX="14.125" PointY="0.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_LISTAPRECIOCUERPO_LISTAPRECIO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_LISTAPRECIOCUERPO_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.CODIGOBARRA" Width="1.5" PointX="14.125" PointY="27.125" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CODIGOBARRA_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Vista_MostrarMercaderia" Width="1.5" PointX="15.375" PointY="22.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaDetalleMovimientos" Width="1.75" PointX="22.375" PointY="19.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Medidas_Producto2" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Vista_OrdenCargaAfectar" Width="1.5" PointX="21.375" PointY="23.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.USUARIOSESION" Width="1.5" PointX="12.75" PointY="35.125" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_USUARIOSESION_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TT_Existencia_ProductoTerminado" Width="1.5" PointX="36.375" PointY="13.5" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Existencia_ProductoTerminado_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Existencia_ProductoTerminado_Movimientos_Produccion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Existencia_ProductoTerminado_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Producto_Afec_OrdenCarga" Width="1.5" PointX="36.375" PointY="7.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Producto_Afec_OrdenCarga_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.AA" Width="1.5" PointX="23.375" PointY="23.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MensajeChatsLatIzq" Width="1.5" PointX="25.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaOCC_CantidadesAfectas" Width="1.5" PointX="0.75" PointY="25.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.INFOSISTEMA" Width="1.5" PointX="11.375" PointY="2.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Productos_Insumos1" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Existencia_Productos" Width="1.5" PointX="14.125" PointY="0.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Productos_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Productos_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Orden_Carga" Width="1.5" PointX="12.875" PointY="8.125" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Carga_Estado_Ord_Carga" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Producto_Afec_OrdenCarga_Orden_Carga" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Orden_Carga_Cuerpo_Orden_Carga" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Existencia_ProductoTerminado" Width="1.5" PointX="34.125" PointY="9" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Estado_ExistenciaProductoTerminado" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Movimientos_Produccion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Orden_Carga" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Orden_Produccion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_OrdenProduccionParteCuerpo" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Productos_Insumos" ManuallyRouted="true" >
+          <ConnectorPoint PointX="13.375" PointY="0.87799999999999612" />
+          <ConnectorPoint PointX="18.229166666666668" PointY="0.87799999999999556" />
+          <ConnectorPoint PointX="18.395833333333332" PointY="0.87799999999999612" />
+          <ConnectorPoint PointX="20.335936675" PointY="0.87799999999999612" />
+          <ConnectorPoint PointX="20.335936675" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="21.791666666666668" PointY="1.2107176053896527" />
+          <ConnectorPoint PointX="21.958333333333332" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="22.377916666666668" PointY="1.2107176053896527" />
+          <ConnectorPoint PointX="22.544583333333332" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="22.602692964364014" PointY="1.2107176053896527" />
+          <ConnectorPoint PointX="22.769359631030678" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="23.142916666666668" PointY="1.2107176053896525" />
+          <ConnectorPoint PointX="23.410833333333333" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="27.041666666666668" PointY="1.2107176053896527" />
+          <ConnectorPoint PointX="27.208333333333332" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="28.839166666666667" PointY="1.2107176053896527" />
+          <ConnectorPoint PointX="29.005833333333332" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="34.4687475" PointY="1.2107176053896533" />
+          <ConnectorPoint PointX="34.4687475" PointY="9" />
+        </AssociationConnector>
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_ExistenciaProducto_ExistenciaInsumo_Existencia_ProductoTerminado" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Producto_Afec_OrdenCarga_Existencia_ProductoTerminado" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Existencia_ProductoTerminado_Existencia_ProductoTerminado1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Prodocuto_Afec_OrdenCarga_Existencia_ProductoTerminado" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MANTENIMIENTOREGISTRO" Width="1.5" PointX="27.625" PointY="14.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MANTENIMIENTOTIPO" Width="1.5" PointX="25.375" PointY="15.875" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MANTENIMIENTOTIPOTAREA" Width="1.5" PointX="27.625" PointY="17.375" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MANTENIMIENTOREGISTRO_MANTENIMIENTOTIPO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MANTENIMIENTOTIPOTAREA_MANTENIMIENTOTIPO" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.NOTIFICACIONCONFIGURABLE" Width="1.5" PointX="10.5" PointY="31.625" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.NOTIFICACIONCONFIGURABLEENVIO" Width="1.5" PointX="12.75" PointY="0.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_NOTIFICACIONCONFIGURABLEENVIO_NOTIFICACIONCONFIGURABLE" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_NOTIFICACIONCONFIGURABLEENVIO_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.OrdenCarga_Cuerpo" Width="1.5" PointX="26.125" PointY="7.875" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenCarga_Cuerpo_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenCarga_Cuerpo_Orden_Carga" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenCarga_Cuerpo_Productos_Insumos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Orden_Carga_Cuerpo_OrdenCarga_Cuerpo" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.USUARIOCONFIG" Width="1.5" PointX="12.75" PointY="38.25" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_USUARIOCONFIG_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.AUTOBACKUPBASES" Width="1.5" PointX="24.25" PointY="19.25" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.AutoBackupRuta" Width="1.5" PointX="23.375" PointY="12.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Deposito" Width="1.5" PointX="36.375" PointY="27.125" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.EMOJI" Width="1.5" PointX="27.625" PointY="27.5" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.EMOJIGRUPO" Width="1.5" PointX="25.375" PointY="27.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MENSAJE" Width="1.5" PointX="12" PointY="48.125" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.NotificacionEmail" Width="1.5" PointX="25.375" PointY="11.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.sysdiagrams" Width="1.5" PointX="25.375" PointY="30.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREA" Width="1.5" PointX="9.125" PointY="6" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREACLASIFICACION" Width="1.5" PointX="9.75" PointY="45.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREACUERPO" Width="1.5" PointX="14.25" PointY="3.625" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREACUERPO_TT" Width="1.5" PointX="25.375" PointY="33.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREACUERPODATO" Width="1.5" PointX="16.5" PointY="2.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREACUERPOTIEMPO" Width="1.5" PointX="16.5" PointY="33.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREACUERPOTIEMPO_TT" Width="1.5" PointX="27.375" PointY="7.375" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREAPRIORIDAD" Width="1.5" PointX="9.75" PointY="43" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TAREATRAMO" Width="1.5" PointX="12" PointY="54.375" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Deposito_Existencia_ProductoTerminado" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_EMOJI_EMOJIGRUPO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREA_TAREACLASIFICACION" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREA_TAREAPRIORIDAD" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREACUERPO_TAREA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREACUERPO_TAREATRAMO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREACUERPODATO_TAREACUERPO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREACUERPOTIEMPO_TAREACUERPO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREACUERPODATO_TAREATRAMO" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.ZONA" Width="1.5" PointX="3.375" PointY="25.875" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaPedidos" Width="1.5" PointX="25.375" PointY="20.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.LOTEPRODUCCION" Width="1.5" PointX="14.125" PointY="30.125" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_LOTEPRODUCCION_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Estado_Pedido_Cuerpo" Width="1.5" PointX="19.375" PointY="29.125" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Pedido_Cuerpo" Width="1.5" PointX="27.625" PointY="20.875" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Produccion_Parte_Estado_Pedido_Cuerpo" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenProduccion_Cuerpo_Estado_Pedido_Cuerpo" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Pedido_Cuerpo_Estado_Pedido_Cuerpo1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_OrdenProduccion_Cuerpo_Estado_Pedido_Cuerpo" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Pedido_Cuerpo_Estado_Pedido_Cuerpo" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Pedido_Cuerpo_Medidas_Producto" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Pedido_Cuerpo_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Registro_Pedidos" Width="1.5" PointX="12.875" PointY="13.625" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Registro_Pedidos_Estado_Ord_Carga" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenCarga_Cuerpo_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenProduccion_Cuerpo_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Pedido_Cuerpo_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Producto_Afec_OrdenCarga_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Registro_Pedidos_ZONA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Orden_Carga_Cuerpo_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_OrdenProduccion_Cuerpo_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Pedido_Cuerpo_Registro_Pedidos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Prodocuto_Afec_OrdenCarga_Registro_Pedidos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaPedidos002" Width="1.5" PointX="16.375" PointY="26.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MANTENIMIENTOREGISTROCUERPO" Width="1.5" PointX="29.875" PointY="8.625" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MANTENIMIENTOREGISTROCUERPO_MANTENIMIENTOREGISTRO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MANTENIMIENTOREGISTROCUERPO_MANTENIMIENTOTIPOTAREA" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Ciudades" Width="1.5" PointX="10.625" PointY="28.125" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Puestos" Width="1.5" PointX="3.375" PointY="29.25" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Ciudades" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Carga_Ciudades" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Registro_Pedidos_Ciudades" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaResumenMaestro" Width="1.5" PointX="27.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Empleados" Width="1.5" PointX="5.625" PointY="29.625" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Empleados_Puestos1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Empleados_Seccion" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Empleados_ZONA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Historial_Insumos_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_INGRESOMERCADERIA_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MANTENIMIENTOREGISTROCUERPO_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MENSAJE_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MENSAJE_Empleados1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Carga_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Produccion_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenProduccionParteCuerpo_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Productos_Insumos_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Registro_Pedidos_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREA_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREA_Empleados1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREA_Empleados2" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREA_Empleados3" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TAREACUERPO_Empleados" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TT_Existencia_ProductoTerminado_Empleados" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MOVIMIENTOCUENTACORRIENTE" Width="1.5" PointX="30.125" PointY="25.125" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOCUENTACORRIENTE_MOVIMIENTOS" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOCUENTACORRIENTE_Tipo_Gasto" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MOVIMIENTOCUENTACORRIENTECUERPO" Width="1.5" PointX="32.375" PointY="24.625" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOCUENTACORRIENTECUERPO_MOVIMIENTOCUENTACORRIENTE" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.INGRESOMERCADERIA_MEMOS" Width="1.5" PointX="18.375" PointY="22.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.INGRESOMERCADERIACUERPO_MEMOS" Width="1.5" PointX="29.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.Clientes" Width="1.5" PointX="18.875" PointY="33" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Clientes_Ciudades1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Clientes_Tipo_Cliente" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Clientes_ZONA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_Insumos_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Existencia_ProductoTerminado_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_INGRESOMERCADERIA_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Insumo_Proveedor_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOCUENTACORRIENTE_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Orden_Carga_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_OrdenCarga_Cuerpo_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Producto_Cliente_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Registro_Pedidos_Clientes" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VISTA_RESUMENCUENTA001" Width="1.5" PointX="6.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.USUARIORESTRICCION" Width="1.5" PointX="12.75" PointY="41.5" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_USUARIORESTRICCION_Usuarios" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_USUARIORESTRICCION_Clientes" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.CAJA" Width="1.5" PointX="15.5" PointY="40.875" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaCajaMovimientos001" Width="1.5" PointX="21.375" PointY="27.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.CAJAUSUARIO" Width="1.5" PointX="21.75" PointY="31.625" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAUSUARIO_CAJA" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAUSUARIO_Usuarios" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.VistaCajaMovimientosTotales001" Width="1.5" PointX="3.375" PointY="10.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.CAJAMOVIMIENTO" Width="1.5" PointX="28" PointY="30.375" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAMOVIMIENTO_CAJAUSUARIO1" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAMOVIMIENTO_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAMOVIMIENTO_Modulos" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAMOVIMIENTO_MOVIMIENTOS" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.LISTAPRECIOCONFIG" Width="1.5" PointX="7.375" PointY="12.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TICKETCUERPO" Width="1.5" PointX="15.125" PointY="10.875" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKETCUERPO_Productos_Insumos" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.MEDIOPAGO" Width="1.5" PointX="0.75" PointY="24.75" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TICKET" Width="1.5" PointX="31" PointY="36.125" />
+        <EntityTypeShape EntityType="Pcodin_SinlaccModel.TICKETMEDIOPAGO" Width="1.5" PointX="33.25" PointY="31.75" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_CAJAMOVIMIENTO_MEDIOPAGO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKET_Clientes" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_Gastos_MEDIOPAGO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_INGRESOMERCADERIA_MEDIOPAGO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOCUENTACORRIENTE_MEDIOPAGO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKET_MEDIOPAGO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKETMEDIOPAGO_MEDIOPAGO" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_MOVIMIENTOCUENTACORRIENTECUERPO_TICKET" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKET_MOVIMIENTOS" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKETCUERPO_TICKET" />
+        <AssociationConnector Association="Pcodin_SinlaccModel.FK_TICKETMEDIOPAGO_TICKET" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

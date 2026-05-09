@@ -1,0 +1,647 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|c:\\users\\franc\\documents\\kacos\\pack-codin\\sinlacc\\pcodin sinlacc - copia 190922\\formularios\\ventas\\ticket\\frmagregarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\ventas\\ticket\\frmagregarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\ventas\\ticket\\frmagregarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\ventas\\ticket\\frmagregarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\clases\\reutilizables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:clases\\reutilizables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|c:\\users\\franc\\documents\\kacos\\pack-codin\\sinlacc\\pcodin sinlacc - copia 190922\\formularios\\ventas\\centro de gastos\\frmagregargastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\ventas\\centro de gastos\\frmagregargastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\clases\\clscargarcombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:clases\\clscargarcombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\caja\\frmcajamostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\caja\\frmcajamostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\clases\\clsimprimirplantilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:clases\\clsimprimirplantilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\ventas\\ticket\\frmmostrarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\ventas\\ticket\\frmmostrarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\ventas\\lista de precio\\frmlistaprecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\ventas\\lista de precio\\frmlistaprecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoasistenteitherio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoasistenteitherio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoasistenteitherio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoasistenteitherio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\humano\\gestor de clientes\\frmgestordeclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\humano\\gestor de clientes\\frmgestordeclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\ventas\\ticket\\frmmostrarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\ventas\\ticket\\frmmostrarticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\caja\\frmcajamostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\caja\\frmcajamostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumomostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumomostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumomostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumomostrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoasistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmingresoinsumoasistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\frmportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\frmportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\estadisticas\\reporting\\frmfiltrosreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\estadisticas\\reporting\\frmfiltrosreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\clases\\formularios\\ingresos\\frmingresoinsumoasistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:clases\\formularios\\ingresos\\frmingresoinsumoasistente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\materiales\\gestor de materiales\\insumos\\frmagregarcomprainsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\materiales\\gestor de materiales\\insumos\\frmagregarcomprainsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\configuracion\\usuarios\\frmcreareditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\configuracion\\usuarios\\frmcreareditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\configuracion\\usuarios\\frmcreareditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\configuracion\\usuarios\\frmcreareditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\humano\\gestor de clientes\\frmagregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\humano\\gestor de clientes\\frmagregarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\inicio\\login\\frmportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\inicio\\login\\frmportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\caja\\frmcajausuariomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\caja\\frmcajausuariomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\estadisticas\\reporting\\frmfiltrosreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\estadisticas\\reporting\\frmfiltrosreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\frmpantallaespera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\frmpantallaespera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\formularios\\humano\\gestor de clientes\\frmgestordeclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2311C37-167C-4680-B086-4883CC9B3ACA}|PCodin Sinlacc.csproj|solutionrelative:formularios\\humano\\gestor de clientes\\frmgestordeclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmIngresoInsumo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:45:41.833Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAgregarTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs",
+              "RelativeDocumentMoniker": "Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:07:04.168Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAgregarTicket.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs",
+              "RelativeDocumentMoniker": "Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs*",
+              "RelativeToolTip": "Formularios\\VENTAS\\Ticket\\frmAgregarTicket.cs*",
+              "ViewState": "AgIAABYHAAAAAAAAAAAuwC4HAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:42:37.991Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmAgregarGastos.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Centro de gastos\\frmAgregarGastos.cs",
+              "RelativeDocumentMoniker": "Formularios\\VENTAS\\Centro de gastos\\frmAgregarGastos.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Centro de gastos\\frmAgregarGastos.cs",
+              "RelativeToolTip": "Formularios\\VENTAS\\Centro de gastos\\frmAgregarGastos.cs",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAqwP0BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:14:10.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reutilizables.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\Reutilizables.cs",
+              "RelativeDocumentMoniker": "Clases\\Reutilizables.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\Reutilizables.cs",
+              "RelativeToolTip": "Clases\\Reutilizables.cs",
+              "ViewState": "AgIAAC8DAAAAAAAAAAAwwDsDAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T22:15:47.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBAAAAAcAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-04T19:10:29.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsCargarCombos.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\clsCargarCombos.cs",
+              "RelativeDocumentMoniker": "Clases\\clsCargarCombos.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\clsCargarCombos.cs",
+              "RelativeToolTip": "Clases\\clsCargarCombos.cs",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAIwO0BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T22:16:11.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsImprimirPlantilla.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\clsImprimirPlantilla.cs",
+              "RelativeDocumentMoniker": "Clases\\clsImprimirPlantilla.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\clsImprimirPlantilla.cs",
+              "RelativeToolTip": "Clases\\clsImprimirPlantilla.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswIgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T18:44:41.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmCajaMostrar.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CAJA\\frmCajaMostrar.cs",
+              "RelativeDocumentMoniker": "Formularios\\CAJA\\frmCajaMostrar.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CAJA\\frmCajaMostrar.cs",
+              "RelativeToolTip": "Formularios\\CAJA\\frmCajaMostrar.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwCoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T18:00:10.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCajaMostrar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CAJA\\frmCajaMostrar.cs",
+              "RelativeDocumentMoniker": "Formularios\\CAJA\\frmCajaMostrar.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CAJA\\frmCajaMostrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\CAJA\\frmCajaMostrar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T18:00:07.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmIngresoInsumoMostrar.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAkwIMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:46:14.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmIngresoInsumoMostrar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoMostrar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:45:10.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmIngresoInsumoAsistente.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\Formularios\\Ingresos\\frmIngresoInsumoAsistente.cs",
+              "RelativeDocumentMoniker": "Clases\\Formularios\\Ingresos\\frmIngresoInsumoAsistente.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Clases\\Formularios\\Ingresos\\frmIngresoInsumoAsistente.cs",
+              "RelativeToolTip": "Clases\\Formularios\\Ingresos\\frmIngresoInsumoAsistente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:36:54.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmAgregarCompraInsumo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmAgregarCompraInsumo.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmAgregarCompraInsumo.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmAgregarCompraInsumo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmAgregarCompraInsumo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:32:26.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmCrearEditarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs",
+              "RelativeDocumentMoniker": "Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs",
+              "RelativeToolTip": "Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:13:04.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmCrearEditarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs",
+              "RelativeDocumentMoniker": "Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\CONFIGURACION\\Usuarios\\frmCrearEditarUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:13:01.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmAgregarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\HUMANO\\Gestor de clientes\\frmAgregarCliente.cs",
+              "RelativeDocumentMoniker": "Formularios\\HUMANO\\Gestor de clientes\\frmAgregarCliente.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\HUMANO\\Gestor de clientes\\frmAgregarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\HUMANO\\Gestor de clientes\\frmAgregarCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:12:50.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmInicio.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmInicio.cs",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\frmInicio.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowC4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:53:47.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmLogin.cs",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\frmLogin.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAmwG8BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:52:40.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:52:08.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmInicio.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\frmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:52:06.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\Form1.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\Form1.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:52:04.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmPortada.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmPortada.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\frmPortada.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmPortada.cs",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\frmPortada.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:51:51.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmPortada.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmPortada.cs",
+              "RelativeDocumentMoniker": "Formularios\\INICIO\\Login\\frmPortada.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\INICIO\\Login\\frmPortada.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\INICIO\\Login\\frmPortada.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:51:39.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frmPantallaEspera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\frmPantallaEspera.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmPantallaEspera.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\frmPantallaEspera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\frmPantallaEspera.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:16:30.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmFiltrosReportes.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs",
+              "RelativeDocumentMoniker": "Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs",
+              "RelativeToolTip": "Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs",
+              "ViewState": "AgIAAMcDAAAAAAAAAAAmwNUDAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:16:14.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmFiltrosReportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs",
+              "RelativeDocumentMoniker": "Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\ESTADISTICAS\\Reporting\\frmFiltrosReportes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:16:13.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmCajaUsuarioMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CAJA\\frmCajaUsuarioMovimiento.cs",
+              "RelativeDocumentMoniker": "Formularios\\CAJA\\frmCajaUsuarioMovimiento.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\CAJA\\frmCajaUsuarioMovimiento.cs",
+              "RelativeToolTip": "Formularios\\CAJA\\frmCajaUsuarioMovimiento.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:10:58.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmIngresoInsumoAsistente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistente.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistente.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:29:53.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmIngresoInsumoAgregar.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAA4wI0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:36:03.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmIngresoInsumoAgregar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAgregar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T01:35:52.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frmGestorDeClientes.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs",
+              "RelativeDocumentMoniker": "Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs",
+              "RelativeToolTip": "Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAwwJEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:44:56.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmGestorDeClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs",
+              "RelativeDocumentMoniker": "Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\HUMANO\\Gestor de clientes\\frmGestorDeClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:44:55.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmMostrarTicket.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs",
+              "RelativeDocumentMoniker": "Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs",
+              "RelativeToolTip": "Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAjwFcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:44:44.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmMostrarTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs",
+              "RelativeDocumentMoniker": "Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\VENTAS\\Ticket\\frmMostrarTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:44:43.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmIngresoInsumo.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumo.cs",
+              "ViewState": "AgIAAE4DAAAAAAAAAAA4wFoDAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:52:58.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmListaPrecio.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Lista de precio\\frmListaPrecio.cs",
+              "RelativeDocumentMoniker": "Formularios\\VENTAS\\Lista de precio\\frmListaPrecio.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\VENTAS\\Lista de precio\\frmListaPrecio.cs",
+              "RelativeToolTip": "Formularios\\VENTAS\\Lista de precio\\frmListaPrecio.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwCgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T02:20:16.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmIngresoInsumoAsistenteITHERIO.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwK4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:42:21.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmIngresoInsumoAsistenteITHERIO.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs",
+              "RelativeDocumentMoniker": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Kacos\\Pack-Codin\\Sinlacc\\PCodin Sinlacc - copia 190922\\Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\MATERIALES\\Gestor de materiales\\Insumos\\frmIngresoInsumoAsistenteITHERIO.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:42:06.891Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

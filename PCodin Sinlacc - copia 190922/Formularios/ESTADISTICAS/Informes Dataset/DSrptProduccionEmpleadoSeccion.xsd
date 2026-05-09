@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSrptProduccionEmpleadoSeccion" targetNamespace="http://tempuri.org/DSrptProduccionEmpleadoSeccion.xsd" xmlns:mstns="http://tempuri.org/DSrptProduccionEmpleadoSeccion.xsd" xmlns="http://tempuri.org/DSrptProduccionEmpleadoSeccion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSrptProduccionEmpleadoSeccion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSrptProduccionEmpleadoSeccion" msprop:Generator_UserDSName="DSrptProduccionEmpleadoSeccion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptRankingProduccionEmpleados" msprop:Generator_TableClassName="rptRankingProduccionEmpleadosDataTable" msprop:Generator_TableVarName="tablerptRankingProduccionEmpleados" msprop:Generator_TablePropName="rptRankingProduccionEmpleados" msprop:Generator_RowDeletingName="rptRankingProduccionEmpleadosRowDeleting" msprop:Generator_RowChangingName="rptRankingProduccionEmpleadosRowChanging" msprop:Generator_RowEvHandlerName="rptRankingProduccionEmpleadosRowChangeEventHandler" msprop:Generator_RowDeletedName="rptRankingProduccionEmpleadosRowDeleted" msprop:Generator_UserTableName="rptRankingProduccionEmpleados" msprop:Generator_RowChangedName="rptRankingProduccionEmpleadosRowChanged" msprop:Generator_RowEvArgName="rptRankingProduccionEmpleadosRowChangeEvent" msprop:Generator_RowClassName="rptRankingProduccionEmpleadosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CodProducto" msprop:Generator_ColumnVarNameInTable="columnCodProducto" msprop:Generator_ColumnPropNameInRow="CodProducto" msprop:Generator_ColumnPropNameInTable="CodProductoColumn" msprop:Generator_UserColumnName="CodProducto" type="xs:string" minOccurs="0" />
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OrdenProduccionID" msprop:Generator_ColumnVarNameInTable="columnOrdenProduccionID" msprop:Generator_ColumnPropNameInRow="OrdenProduccionID" msprop:Generator_ColumnPropNameInTable="OrdenProduccionIDColumn" msprop:Generator_UserColumnName="OrdenProduccionID" type="xs:string" minOccurs="0" />
+              <xs:element name="Tiempo_Empleado" msprop:Generator_ColumnVarNameInTable="columnTiempo_Empleado" msprop:Generator_ColumnPropNameInRow="Tiempo_Empleado" msprop:Generator_ColumnPropNameInTable="Tiempo_EmpleadoColumn" msprop:Generator_UserColumnName="Tiempo_Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="Empleado" msprop:Generator_ColumnVarNameInTable="columnEmpleado" msprop:Generator_ColumnPropNameInRow="Empleado" msprop:Generator_ColumnPropNameInTable="EmpleadoColumn" msprop:Generator_UserColumnName="Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="TiempoEmpleadoTotal" msprop:Generator_ColumnVarNameInTable="columnTiempoEmpleadoTotal" msprop:Generator_ColumnPropNameInRow="TiempoEmpleadoTotal" msprop:Generator_ColumnPropNameInTable="TiempoEmpleadoTotalColumn" msprop:Generator_UserColumnName="TiempoEmpleadoTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="TiempoProductoTotal" msprop:Generator_ColumnVarNameInTable="columnTiempoProductoTotal" msprop:Generator_ColumnPropNameInRow="TiempoProductoTotal" msprop:Generator_ColumnPropNameInTable="TiempoProductoTotalColumn" msprop:Generator_UserColumnName="TiempoProductoTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="Seccion" msprop:Generator_ColumnVarNameInTable="columnSeccion" msprop:Generator_ColumnPropNameInRow="Seccion" msprop:Generator_ColumnPropNameInTable="SeccionColumn" msprop:Generator_UserColumnName="Seccion" type="xs:string" minOccurs="0" />
+              <xs:element name="TiempoSeccionTotal" msprop:Generator_ColumnVarNameInTable="columnTiempoSeccionTotal" msprop:Generator_ColumnPropNameInRow="TiempoSeccionTotal" msprop:Generator_ColumnPropNameInTable="TiempoSeccionTotalColumn" msprop:Generator_UserColumnName="TiempoSeccionTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="Efectividad" msprop:Generator_ColumnVarNameInTable="columnEfectividad" msprop:Generator_ColumnPropNameInRow="Efectividad" msprop:Generator_ColumnPropNameInTable="EfectividadColumn" msprop:Generator_UserColumnName="Efectividad" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

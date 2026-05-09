@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCodin Sinlacc", "PCodin Sinlacc.csproj", "{A2311C37-167C-4680-B086-4883CC9B3ACA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador", "..\Instalador\Instalador.vdproj", "{CB46028C-3050-44F4-814A-C1FE82825B03}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Setup", "..\Setup\Setup.aiproj", "{FB94D349-B26C-420F-9F1F-EBAD81616290}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pack-Condin Setup", "..\Pack-Condin Setup\Pack-Condin Setup.vdproj", "{EC5DC32F-6FBF-422C-A289-7087006FE923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DefaultBuild|Any CPU = DefaultBuild|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2311C37-167C-4680-B086-4883CC9B3ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2311C37-167C-4680-B086-4883CC9B3ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2311C37-167C-4680-B086-4883CC9B3ACA}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2311C37-167C-4680-B086-4883CC9B3ACA}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
+		{A2311C37-167C-4680-B086-4883CC9B3ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2311C37-167C-4680-B086-4883CC9B3ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB46028C-3050-44F4-814A-C1FE82825B03}.Debug|Any CPU.ActiveCfg = Release
+		{CB46028C-3050-44F4-814A-C1FE82825B03}.DefaultBuild|Any CPU.ActiveCfg = Release
+		{CB46028C-3050-44F4-814A-C1FE82825B03}.Release|Any CPU.ActiveCfg = Release
+		{FB94D349-B26C-420F-9F1F-EBAD81616290}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{FB94D349-B26C-420F-9F1F-EBAD81616290}.Debug|Any CPU.Build.0 = DefaultBuild
+		{FB94D349-B26C-420F-9F1F-EBAD81616290}.DefaultBuild|Any CPU.ActiveCfg = DefaultBuild
+		{FB94D349-B26C-420F-9F1F-EBAD81616290}.DefaultBuild|Any CPU.Build.0 = DefaultBuild
+		{FB94D349-B26C-420F-9F1F-EBAD81616290}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{FB94D349-B26C-420F-9F1F-EBAD81616290}.Release|Any CPU.Build.0 = DefaultBuild
+		{EC5DC32F-6FBF-422C-A289-7087006FE923}.Debug|Any CPU.ActiveCfg = Debug
+		{EC5DC32F-6FBF-422C-A289-7087006FE923}.DefaultBuild|Any CPU.ActiveCfg = Debug
+		{EC5DC32F-6FBF-422C-A289-7087006FE923}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD5ED071-5801-4251-886B-9557D4730A91}
+	EndGlobalSection
+EndGlobal

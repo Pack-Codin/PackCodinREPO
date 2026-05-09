@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AGMModelStoreContainer" CdmEntityContainer="DBdatos2">
+    <EntitySetMapping Name="Vst_Deposito">
+      <EntityTypeMapping TypeName="AGMModel.Vst_Deposito">
+        <MappingFragment StoreEntitySet="Vst_Deposito">
+          <ScalarProperty Name="Disponible" ColumnName="Disponible" />
+          <ScalarProperty Name="Contiene" ColumnName="Contiene" />
+          <ScalarProperty Name="ExistenciaPallet" ColumnName="ExistenciaPallet" />
+          <ScalarProperty Name="CapacidadDepositoPallet" ColumnName="CapacidadDepositoPallet" />
+          <ScalarProperty Name="ExistenciaFardos" ColumnName="ExistenciaFardos" />
+          <ScalarProperty Name="DepositoCapacidad" ColumnName="DepositoCapacidad" />
+          <ScalarProperty Name="Fila" ColumnName="Fila" />
+          <ScalarProperty Name="DescDepo" ColumnName="DescDepo" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vst_Deposito2">
+      <EntityTypeMapping TypeName="AGMModel.Vst_Deposito2">
+        <MappingFragment StoreEntitySet="Vst_Deposito2">
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="DescCalidad2" ColumnName="DescCalidad2" />
+          <ScalarProperty Name="DescCalidad" ColumnName="DescCalidad" />
+          <ScalarProperty Name="IDPauta" ColumnName="IDPauta" />
+          <ScalarProperty Name="StockReal" ColumnName="StockReal" />
+          <ScalarProperty Name="PendRecibir" ColumnName="PendRecibir" />
+          <ScalarProperty Name="PendEntrega" ColumnName="PendEntrega" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+          <ScalarProperty Name="DescDepo" ColumnName="DescDepo" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="SerieLote" ColumnName="SerieLote" />
+          <ScalarProperty Name="DescArticulo" ColumnName="DescArticulo" />
+          <ScalarProperty Name="Pallets" ColumnName="Pallets" />
+          <ScalarProperty Name="Articulo" ColumnName="Articulo" />
+          <ScalarProperty Name="DescCentroOperativo" ColumnName="DescCentroOperativo" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="DescPlanta" ColumnName="DescPlanta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPOSITO">
+      <EntityTypeMapping TypeName="AGMModel.DEPOSITO">
+        <MappingFragment StoreEntitySet="DEPOSITO">
+          <ScalarProperty Name="DepositoCapacidad" ColumnName="DepositoCapacidad" />
+          <ScalarProperty Name="C_RVersion" ColumnName="_RVersion" />
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="Texto1" ColumnName="Texto1" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+          <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+          <ScalarProperty Name="Lugar" ColumnName="Lugar" />
+          <ScalarProperty Name="Planta" ColumnName="Planta" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="IDTabla" ColumnName="IDTabla" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPOSITOCAPACIDAD">
+      <EntityTypeMapping TypeName="AGMModel.DEPOSITOCAPACIDAD">
+        <MappingFragment StoreEntitySet="DEPOSITOCAPACIDAD">
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IDTabla" ColumnName="IDTabla" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ARTICULO">
+      <EntityTypeMapping TypeName="AGMModel.ARTICULO">
+        <MappingFragment StoreEntitySet="ARTICULO">
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Grano" ColumnName="Grano" />
+          <ScalarProperty Name="ArticuloVariedad" ColumnName="ArticuloVariedad" />
+          <ScalarProperty Name="ArticuloCategoria" ColumnName="ArticuloCategoria" />
+          <ScalarProperty Name="SemillaFiscalizada" ColumnName="SemillaFiscalizada" />
+          <ScalarProperty Name="NombreFantasia" ColumnName="NombreFantasia" />
+          <ScalarProperty Name="DiasVencimiento" ColumnName="DiasVencimiento" />
+          <ScalarProperty Name="CalculaPercepcionIIBB" ColumnName="CalculaPercepcionIIBB" />
+          <ScalarProperty Name="CalculaPercepcionIVA" ColumnName="CalculaPercepcionIVA" />
+          <ScalarProperty Name="CodigoUnidadMedidaEquiv" ColumnName="CodigoUnidadMedidaEquiv" />
+          <ScalarProperty Name="CoeficienteReintegro" ColumnName="CoeficienteReintegro" />
+          <ScalarProperty Name="CalculaCantidadEquiv" ColumnName="CalculaCantidadEquiv" />
+          <ScalarProperty Name="ValidaValeCompra" ColumnName="ValidaValeCompra" />
+          <ScalarProperty Name="C_RVersion" ColumnName="_RVersion" />
+          <ScalarProperty Name="Fitosanitario" ColumnName="Fitosanitario" />
+          <ScalarProperty Name="ArticuloPrincipioActivo" ColumnName="ArticuloPrincipioActivo" />
+          <ScalarProperty Name="Kilos" ColumnName="Kilos" />
+          <ScalarProperty Name="PorcentajeDerecho" ColumnName="PorcentajeDerecho" />
+          <ScalarProperty Name="PorcentajeRecupero" ColumnName="PorcentajeRecupero" />
+          <ScalarProperty Name="ArticuloInterno" ColumnName="ArticuloInterno" />
+          <ScalarProperty Name="Importe8" ColumnName="Importe8" />
+          <ScalarProperty Name="Importe7" ColumnName="Importe7" />
+          <ScalarProperty Name="Importe6" ColumnName="Importe6" />
+          <ScalarProperty Name="Importe5" ColumnName="Importe5" />
+          <ScalarProperty Name="Importe4" ColumnName="Importe4" />
+          <ScalarProperty Name="Texto8" ColumnName="Texto8" />
+          <ScalarProperty Name="Texto7" ColumnName="Texto7" />
+          <ScalarProperty Name="Texto6" ColumnName="Texto6" />
+          <ScalarProperty Name="ArticuloBase" ColumnName="ArticuloBase" />
+          <ScalarProperty Name="UnidadConversion" ColumnName="UnidadConversion" />
+          <ScalarProperty Name="Fecha2" ColumnName="Fecha2" />
+          <ScalarProperty Name="Fecha1" ColumnName="Fecha1" />
+          <ScalarProperty Name="Marca3" ColumnName="Marca3" />
+          <ScalarProperty Name="Marca2" ColumnName="Marca2" />
+          <ScalarProperty Name="Marca1" ColumnName="Marca1" />
+          <ScalarProperty Name="Importe3" ColumnName="Importe3" />
+          <ScalarProperty Name="Importe2" ColumnName="Importe2" />
+          <ScalarProperty Name="Importe1" ColumnName="Importe1" />
+          <ScalarProperty Name="Texto5" ColumnName="Texto5" />
+          <ScalarProperty Name="Texto4" ColumnName="Texto4" />
+          <ScalarProperty Name="Texto3" ColumnName="Texto3" />
+          <ScalarProperty Name="Texto2" ColumnName="Texto2" />
+          <ScalarProperty Name="Texto1" ColumnName="Texto1" />
+          <ScalarProperty Name="ImporteImpInterno" ColumnName="ImporteImpInterno" />
+          <ScalarProperty Name="LoteEconomico" ColumnName="LoteEconomico" />
+          <ScalarProperty Name="AnticipacionProduccion" ColumnName="AnticipacionProduccion" />
+          <ScalarProperty Name="Repuesto" ColumnName="Repuesto" />
+          <ScalarProperty Name="EmiteOrdenProduccion" ColumnName="EmiteOrdenProduccion" />
+          <ScalarProperty Name="TipoProduccion" ColumnName="TipoProduccion" />
+          <ScalarProperty Name="ArticuloPosterior" ColumnName="ArticuloPosterior" />
+          <ScalarProperty Name="ArticuloAnterior" ColumnName="ArticuloAnterior" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="FactorConversion" ColumnName="FactorConversion" />
+          <ScalarProperty Name="AnchoCorte" ColumnName="AnchoCorte" />
+          <ScalarProperty Name="LargoCorte" ColumnName="LargoCorte" />
+          <ScalarProperty Name="Plano" ColumnName="Plano" />
+          <ScalarProperty Name="Material" ColumnName="Material" />
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="ActualizaPrecio" ColumnName="ActualizaPrecio" />
+          <ScalarProperty Name="AlicuotaPercepcion" ColumnName="AlicuotaPercepcion" />
+          <ScalarProperty Name="ActualStock" ColumnName="ActualStock" />
+          <ScalarProperty Name="ActualContabilidadCosto" ColumnName="ActualContabilidadCosto" />
+          <ScalarProperty Name="Redondeo" ColumnName="Redondeo" />
+          <ScalarProperty Name="UnidadMedidaEquiv" ColumnName="UnidadMedidaEquiv" />
+          <ScalarProperty Name="AlicuotaImpInterno" ColumnName="AlicuotaImpInterno" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Ubicacion" ColumnName="Ubicacion" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="AlicuotaPercepcionDGR" ColumnName="AlicuotaPercepcionDGR" />
+          <ScalarProperty Name="AlicuotaIVA" ColumnName="AlicuotaIVA" />
+          <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+          <ScalarProperty Name="StockMinimo" ColumnName="StockMinimo" />
+          <ScalarProperty Name="StockMaximo" ColumnName="StockMaximo" />
+          <ScalarProperty Name="CtrlStock" ColumnName="CtrlStock" />
+          <ScalarProperty Name="CentroOperativo" ColumnName="CentroOperativo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="AGMModel.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

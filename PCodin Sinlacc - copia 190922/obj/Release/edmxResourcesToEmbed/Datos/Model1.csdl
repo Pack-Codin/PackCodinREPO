@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AGMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBdatos2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Vst_Deposito" EntityType="AGMModel.Vst_Deposito" />
+    <EntitySet Name="Vst_Deposito2" EntityType="AGMModel.Vst_Deposito2" />
+    <EntitySet Name="DEPOSITO" EntityType="AGMModel.DEPOSITO" />
+    <EntitySet Name="DEPOSITOCAPACIDAD" EntityType="AGMModel.DEPOSITOCAPACIDAD" />
+    <AssociationSet Name="FK_DEPOSITO_DEPOSITOCAPACIDAD" Association="AGMModel.FK_DEPOSITO_DEPOSITOCAPACIDAD">
+      <End Role="DEPOSITOCAPACIDAD" EntitySet="DEPOSITOCAPACIDAD" />
+      <End Role="DEPOSITO" EntitySet="DEPOSITO" />
+    </AssociationSet>
+    <EntitySet Name="ARTICULO" EntityType="AGMModel.ARTICULO" />
+    <AssociationSet Name="FK_ARTICULO_ARTICULOAnterior" Association="AGMModel.FK_ARTICULO_ARTICULOAnterior">
+      <End Role="ARTICULO" EntitySet="ARTICULO" />
+      <End Role="ARTICULO1" EntitySet="ARTICULO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ARTICULO_ARTICULOBase" Association="AGMModel.FK_ARTICULO_ARTICULOBase">
+      <End Role="ARTICULO" EntitySet="ARTICULO" />
+      <End Role="ARTICULO1" EntitySet="ARTICULO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ARTICULO_ARTICULOPosterior" Association="AGMModel.FK_ARTICULO_ARTICULOPosterior">
+      <End Role="ARTICULO" EntitySet="ARTICULO" />
+      <End Role="ARTICULO1" EntitySet="ARTICULO" />
+    </AssociationSet>
+    <EntitySet Name="USUARIO" EntityType="AGMModel.USUARIO" />
+  </EntityContainer>
+  <EntityType Name="Vst_Deposito">
+    <Key>
+      <PropertyRef Name="ExistenciaFardos" />
+      <PropertyRef Name="ExistenciaPallet" />
+    </Key>
+    <Property Name="Deposito" Type="Int64" />
+    <Property Name="DescDepo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Fila" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DepositoCapacidad" Type="Int64" />
+    <Property Name="ExistenciaFardos" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="CapacidadDepositoPallet" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ExistenciaPallet" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Contiene" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Disponible" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Vst_Deposito2">
+    <Key>
+      <PropertyRef Name="Total" />
+      <PropertyRef Name="Pallets" />
+      <PropertyRef Name="SerieLote" />
+      <PropertyRef Name="FechaVencimiento" />
+      <PropertyRef Name="Existencia" />
+      <PropertyRef Name="PendEntrega" />
+      <PropertyRef Name="PendRecibir" />
+      <PropertyRef Name="StockReal" />
+      <PropertyRef Name="IDPauta" />
+      <PropertyRef Name="DescCalidad" />
+      <PropertyRef Name="DescCalidad2" />
+    </Key>
+    <Property Name="DescPlanta" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Total" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DescCentroOperativo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Articulo" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Pallets" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="DescArticulo" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="SerieLote" Type="String" Nullable="false" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="FechaVencimiento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Deposito" Type="Int64" />
+    <Property Name="DescDepo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="UnidadMedida" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Existencia" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="PendEntrega" Type="Int32" Nullable="false" />
+    <Property Name="PendRecibir" Type="Int32" Nullable="false" />
+    <Property Name="StockReal" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="IDPauta" Type="Int64" Nullable="false" />
+    <Property Name="DescCalidad" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="DescCalidad2" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DEPOSITO">
+    <Key>
+      <PropertyRef Name="IDTabla" />
+    </Key>
+    <Property Name="IDTabla" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Codigo" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Planta" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Lugar" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Capacidad" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnidadMedida" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Tipo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Observacion" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Texto1" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Visible" Type="Int32" />
+    <Property Name="C_RVersion" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="DepositoCapacidad" Type="Int64" />
+    <NavigationProperty Name="DEPOSITOCAPACIDAD1" Relationship="AGMModel.FK_DEPOSITO_DEPOSITOCAPACIDAD" FromRole="DEPOSITO" ToRole="DEPOSITOCAPACIDAD" />
+  </EntityType>
+  <EntityType Name="DEPOSITOCAPACIDAD">
+    <Key>
+      <PropertyRef Name="IDTabla" />
+    </Key>
+    <Property Name="IDTabla" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cantidad" Type="Int32" />
+    <NavigationProperty Name="DEPOSITO" Relationship="AGMModel.FK_DEPOSITO_DEPOSITOCAPACIDAD" FromRole="DEPOSITOCAPACIDAD" ToRole="DEPOSITO" />
+  </EntityType>
+  <Association Name="FK_DEPOSITO_DEPOSITOCAPACIDAD">
+    <End Type="AGMModel.DEPOSITOCAPACIDAD" Role="DEPOSITOCAPACIDAD" Multiplicity="0..1" />
+    <End Type="AGMModel.DEPOSITO" Role="DEPOSITO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPOSITOCAPACIDAD">
+        <PropertyRef Name="IDTabla" />
+      </Principal>
+      <Dependent Role="DEPOSITO">
+        <PropertyRef Name="DepositoCapacidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ARTICULO">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="CentroOperativo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CtrlStock" Type="Int16" />
+    <Property Name="StockMaximo" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="StockMinimo" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnidadMedida" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="AlicuotaIVA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="AlicuotaPercepcionDGR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Origen" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Ubicacion" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Observacion" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="AlicuotaImpInterno" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnidadMedidaEquiv" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Redondeo" Type="Int32" />
+    <Property Name="ActualContabilidadCosto" Type="Int32" />
+    <Property Name="ActualStock" Type="Int32" />
+    <Property Name="AlicuotaPercepcion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ActualizaPrecio" Type="Int32" />
+    <Property Name="Visible" Type="Int32" />
+    <Property Name="Material" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Plano" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LargoCorte" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AnchoCorte" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="FactorConversion" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Peso" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ArticuloAnterior" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="ArticuloPosterior" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="TipoProduccion" Type="Int32" />
+    <Property Name="EmiteOrdenProduccion" Type="Int32" />
+    <Property Name="Repuesto" Type="Int32" />
+    <Property Name="AnticipacionProduccion" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="LoteEconomico" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ImporteImpInterno" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Texto1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Texto2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Texto3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Texto4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Texto5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Importe1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Marca1" Type="Int32" />
+    <Property Name="Marca2" Type="Int32" />
+    <Property Name="Marca3" Type="Int32" />
+    <Property Name="Fecha1" Type="DateTime" Precision="3" />
+    <Property Name="Fecha2" Type="DateTime" Precision="3" />
+    <Property Name="UnidadConversion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ArticuloBase" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Texto6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Texto7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Texto8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Importe4" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe5" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe6" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe7" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe8" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ArticuloInterno" Type="Int32" />
+    <Property Name="PorcentajeRecupero" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PorcentajeDerecho" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Kilos" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ArticuloPrincipioActivo" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Fitosanitario" Type="Int32" />
+    <Property Name="C_RVersion" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="ValidaValeCompra" Type="Int32" />
+    <Property Name="CalculaCantidadEquiv" Type="Int32" />
+    <Property Name="CoeficienteReintegro" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CodigoUnidadMedidaEquiv" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CalculaPercepcionIVA" Type="Int32" />
+    <Property Name="CalculaPercepcionIIBB" Type="Int32" />
+    <Property Name="DiasVencimiento" Type="Int32" />
+    <Property Name="NombreFantasia" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="SemillaFiscalizada" Type="Int32" />
+    <Property Name="ArticuloCategoria" Type="Int32" />
+    <Property Name="ArticuloVariedad" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Grano" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ARTICULO1" Relationship="AGMModel.FK_ARTICULO_ARTICULOAnterior" FromRole="ARTICULO" ToRole="ARTICULO1" />
+    <NavigationProperty Name="ARTICULO2" Relationship="AGMModel.FK_ARTICULO_ARTICULOAnterior" FromRole="ARTICULO1" ToRole="ARTICULO" />
+    <NavigationProperty Name="ARTICULO11" Relationship="AGMModel.FK_ARTICULO_ARTICULOBase" FromRole="ARTICULO" ToRole="ARTICULO1" />
+    <NavigationProperty Name="ARTICULO3" Relationship="AGMModel.FK_ARTICULO_ARTICULOBase" FromRole="ARTICULO1" ToRole="ARTICULO" />
+    <NavigationProperty Name="ARTICULO12" Relationship="AGMModel.FK_ARTICULO_ARTICULOPosterior" FromRole="ARTICULO" ToRole="ARTICULO1" />
+    <NavigationProperty Name="ARTICULO4" Relationship="AGMModel.FK_ARTICULO_ARTICULOPosterior" FromRole="ARTICULO1" ToRole="ARTICULO" />
+  </EntityType>
+  <Association Name="FK_ARTICULO_ARTICULOAnterior">
+    <End Type="AGMModel.ARTICULO" Role="ARTICULO" Multiplicity="0..1" />
+    <End Type="AGMModel.ARTICULO" Role="ARTICULO1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICULO">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="ARTICULO1">
+        <PropertyRef Name="ArticuloAnterior" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ARTICULO_ARTICULOBase">
+    <End Type="AGMModel.ARTICULO" Role="ARTICULO" Multiplicity="0..1" />
+    <End Type="AGMModel.ARTICULO" Role="ARTICULO1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICULO">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="ARTICULO1">
+        <PropertyRef Name="ArticuloBase" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ARTICULO_ARTICULOPosterior">
+    <End Type="AGMModel.ARTICULO" Role="ARTICULO" Multiplicity="0..1" />
+    <End Type="AGMModel.ARTICULO" Role="ARTICULO1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICULO">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="ARTICULO1">
+        <PropertyRef Name="ArticuloPosterior" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Clave" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Activo" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

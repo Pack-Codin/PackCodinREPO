@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AGMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ARTICULO">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="60" />
+          <Property Name="CentroOperativo" Type="varchar" MaxLength="15" />
+          <Property Name="CtrlStock" Type="smallint" />
+          <Property Name="StockMaximo" Type="money" />
+          <Property Name="StockMinimo" Type="money" />
+          <Property Name="UnidadMedida" Type="varchar" MaxLength="4" />
+          <Property Name="AlicuotaIVA" Type="varchar" MaxLength="10" />
+          <Property Name="AlicuotaPercepcionDGR" Type="varchar" MaxLength="10" />
+          <Property Name="Origen" Type="varchar" MaxLength="40" />
+          <Property Name="Ubicacion" Type="varchar" MaxLength="40" />
+          <Property Name="Observacion" Type="varchar" MaxLength="2000" />
+          <Property Name="AlicuotaImpInterno" Type="money" />
+          <Property Name="UnidadMedidaEquiv" Type="money" Nullable="false" />
+          <Property Name="Redondeo" Type="int" />
+          <Property Name="ActualContabilidadCosto" Type="int" />
+          <Property Name="ActualStock" Type="int" />
+          <Property Name="AlicuotaPercepcion" Type="varchar" MaxLength="10" />
+          <Property Name="ActualizaPrecio" Type="int" />
+          <Property Name="Visible" Type="int" />
+          <Property Name="Material" Type="varchar" MaxLength="40" />
+          <Property Name="Plano" Type="varchar" MaxLength="20" />
+          <Property Name="LargoCorte" Type="money" />
+          <Property Name="AnchoCorte" Type="money" />
+          <Property Name="FactorConversion" Type="money" />
+          <Property Name="Peso" Type="money" />
+          <Property Name="ArticuloAnterior" Type="varchar" MaxLength="12" />
+          <Property Name="ArticuloPosterior" Type="varchar" MaxLength="12" />
+          <Property Name="TipoProduccion" Type="int" />
+          <Property Name="EmiteOrdenProduccion" Type="int" />
+          <Property Name="Repuesto" Type="int" />
+          <Property Name="AnticipacionProduccion" Type="money" />
+          <Property Name="LoteEconomico" Type="money" />
+          <Property Name="ImporteImpInterno" Type="money" />
+          <Property Name="Texto1" Type="varchar" MaxLength="50" />
+          <Property Name="Texto2" Type="varchar" MaxLength="50" />
+          <Property Name="Texto3" Type="varchar" MaxLength="50" />
+          <Property Name="Texto4" Type="varchar" MaxLength="50" />
+          <Property Name="Texto5" Type="varchar" MaxLength="50" />
+          <Property Name="Importe1" Type="money" />
+          <Property Name="Importe2" Type="money" />
+          <Property Name="Importe3" Type="money" />
+          <Property Name="Marca1" Type="int" />
+          <Property Name="Marca2" Type="int" />
+          <Property Name="Marca3" Type="int" />
+          <Property Name="Fecha1" Type="datetime" />
+          <Property Name="Fecha2" Type="datetime" />
+          <Property Name="UnidadConversion" Type="varchar" MaxLength="20" />
+          <Property Name="ArticuloBase" Type="varchar" MaxLength="12" />
+          <Property Name="Texto6" Type="varchar" MaxLength="50" />
+          <Property Name="Texto7" Type="varchar" MaxLength="50" />
+          <Property Name="Texto8" Type="varchar" MaxLength="50" />
+          <Property Name="Importe4" Type="money" />
+          <Property Name="Importe5" Type="money" />
+          <Property Name="Importe6" Type="money" />
+          <Property Name="Importe7" Type="money" />
+          <Property Name="Importe8" Type="money" />
+          <Property Name="ArticuloInterno" Type="int" />
+          <Property Name="PorcentajeRecupero" Type="money" />
+          <Property Name="PorcentajeDerecho" Type="money" />
+          <Property Name="Kilos" Type="money" />
+          <Property Name="ArticuloPrincipioActivo" Type="varchar" MaxLength="4" />
+          <Property Name="Fitosanitario" Type="int" />
+          <Property Name="_RVersion" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+          <Property Name="ValidaValeCompra" Type="int" />
+          <Property Name="CalculaCantidadEquiv" Type="int" />
+          <Property Name="CoeficienteReintegro" Type="money" />
+          <Property Name="CodigoUnidadMedidaEquiv" Type="varchar" MaxLength="4" />
+          <Property Name="CalculaPercepcionIVA" Type="int" />
+          <Property Name="CalculaPercepcionIIBB" Type="int" />
+          <Property Name="DiasVencimiento" Type="int" />
+          <Property Name="NombreFantasia" Type="varchar" MaxLength="60" />
+          <Property Name="SemillaFiscalizada" Type="int" />
+          <Property Name="ArticuloCategoria" Type="int" />
+          <Property Name="ArticuloVariedad" Type="varchar" MaxLength="4" />
+          <Property Name="Grano" Type="varchar" MaxLength="4" />
+          <Property Name="Color" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="DEPOSITO">
+          <Key>
+            <PropertyRef Name="IDTabla" />
+          </Key>
+          <Property Name="IDTabla" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Codigo" Type="varchar" MaxLength="8" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="40" />
+          <Property Name="Planta" Type="varchar" MaxLength="4" />
+          <Property Name="Lugar" Type="varchar" MaxLength="4" />
+          <Property Name="Capacidad" Type="money" />
+          <Property Name="UnidadMedida" Type="varchar" MaxLength="4" />
+          <Property Name="Tipo" Type="varchar" MaxLength="40" />
+          <Property Name="Observacion" Type="varchar" MaxLength="500" />
+          <Property Name="Texto1" Type="varchar" MaxLength="40" />
+          <Property Name="Visible" Type="int" />
+          <Property Name="_RVersion" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+          <Property Name="DepositoCapacidad" Type="bigint" />
+        </EntityType>
+        <EntityType Name="DEPOSITOCAPACIDAD">
+          <Key>
+            <PropertyRef Name="IDTabla" />
+          </Key>
+          <Property Name="IDTabla" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+          <Property Name="Cantidad" Type="int" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Clave" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Activo" Type="varchar" MaxLength="2" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'AGM.dbo.Vst_Deposito' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Vst_Deposito">
+          <Key>
+            <PropertyRef Name="ExistenciaFardos" />
+            <PropertyRef Name="ExistenciaPallet" />
+          </Key>
+          <Property Name="Deposito" Type="bigint" />
+          <Property Name="DescDepo" Type="varchar" MaxLength="40" />
+          <Property Name="Fila" Type="varchar" MaxLength="1" />
+          <Property Name="DepositoCapacidad" Type="bigint" />
+          <Property Name="ExistenciaFardos" Type="money" Nullable="false" />
+          <Property Name="CapacidadDepositoPallet" Type="money" />
+          <Property Name="ExistenciaPallet" Type="money" Nullable="false" />
+          <Property Name="Contiene" Type="varchar(max)" />
+          <Property Name="Disponible" Type="money" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'AGM.dbo.Vst_Deposito2' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Vst_Deposito2">
+          <Key>
+            <PropertyRef Name="Total" />
+            <PropertyRef Name="Pallets" />
+            <PropertyRef Name="SerieLote" />
+            <PropertyRef Name="FechaVencimiento" />
+            <PropertyRef Name="Existencia" />
+            <PropertyRef Name="PendEntrega" />
+            <PropertyRef Name="PendRecibir" />
+            <PropertyRef Name="StockReal" />
+            <PropertyRef Name="IDPauta" />
+            <PropertyRef Name="DescCalidad" />
+            <PropertyRef Name="DescCalidad2" />
+            
+          </Key>
+          <Property Name="DescPlanta" Type="varchar" MaxLength="40" />
+          <Property Name="Total" Type="varchar" MaxLength="1" Nullable="false" />
+          <Property Name="DescCentroOperativo" Type="varchar" MaxLength="255" />
+          <Property Name="Articulo" Type="varchar" MaxLength="12" />
+          <Property Name="Pallets" Type="money" Nullable="false" />
+          <Property Name="DescArticulo" Type="varchar" MaxLength="60" />
+          <Property Name="SerieLote" Type="varchar" MaxLength="120" Nullable="false" />
+          <Property Name="FechaVencimiento" Type="datetime" Nullable="false" />
+          <Property Name="Deposito" Type="bigint" />
+          <Property Name="DescDepo" Type="varchar" MaxLength="40" />
+          <Property Name="UnidadMedida" Type="varchar" MaxLength="4" />
+          <Property Name="Existencia" Type="money" Nullable="false" />
+          <Property Name="PendEntrega" Type="int" Nullable="false" />
+          <Property Name="PendRecibir" Type="int" Nullable="false" />
+          <Property Name="StockReal" Type="money" Nullable="false" />
+          <Property Name="IDPauta" Type="bigint" Nullable="false" />
+          <Property Name="DescCalidad" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="DescCalidad2" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="Color" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Cantidad" Type="int" />
+        </EntityType>
+        <Association Name="FK_ARTICULO_ARTICULOAnterior">
+          <End Role="ARTICULO" Type="Self.ARTICULO" Multiplicity="0..1" />
+          <End Role="ARTICULO1" Type="Self.ARTICULO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ARTICULO">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="ARTICULO1">
+              <PropertyRef Name="ArticuloAnterior" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ARTICULO_ARTICULOBase">
+          <End Role="ARTICULO" Type="Self.ARTICULO" Multiplicity="0..1" />
+          <End Role="ARTICULO1" Type="Self.ARTICULO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ARTICULO">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="ARTICULO1">
+              <PropertyRef Name="ArticuloBase" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ARTICULO_ARTICULOPosterior">
+          <End Role="ARTICULO" Type="Self.ARTICULO" Multiplicity="0..1" />
+          <End Role="ARTICULO1" Type="Self.ARTICULO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ARTICULO">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="ARTICULO1">
+              <PropertyRef Name="ArticuloPosterior" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DEPOSITO_DEPOSITOCAPACIDAD">
+          <End Role="DEPOSITOCAPACIDAD" Type="Self.DEPOSITOCAPACIDAD" Multiplicity="0..1" />
+          <End Role="DEPOSITO" Type="Self.DEPOSITO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DEPOSITOCAPACIDAD">
+              <PropertyRef Name="IDTabla" />
+            </Principal>
+            <Dependent Role="DEPOSITO">
+              <PropertyRef Name="DepositoCapacidad" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AGMModelStoreContainer">
+          <EntitySet Name="ARTICULO" EntityType="Self.ARTICULO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DEPOSITO" EntityType="Self.DEPOSITO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DEPOSITOCAPACIDAD" EntityType="Self.DEPOSITOCAPACIDAD" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Vst_Deposito" EntityType="Self.Vst_Deposito" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Vst_Deposito].[Deposito] AS [Deposito], 
+    [Vst_Deposito].[DescDepo] AS [DescDepo], 
+    [Vst_Deposito].[Fila] AS [Fila], 
+    [Vst_Deposito].[DepositoCapacidad] AS [DepositoCapacidad], 
+    [Vst_Deposito].[ExistenciaFardos] AS [ExistenciaFardos], 
+    [Vst_Deposito].[CapacidadDepositoPallet] AS [CapacidadDepositoPallet], 
+    [Vst_Deposito].[ExistenciaPallet] AS [ExistenciaPallet], 
+    [Vst_Deposito].[Contiene] AS [Contiene], 
+    [Vst_Deposito].[Disponible] AS [Disponible]
+    FROM [dbo].[Vst_Deposito] AS [Vst_Deposito]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Vst_Deposito2" EntityType="Self.Vst_Deposito2" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Vst_Deposito2].[DescPlanta] AS [DescPlanta], 
+    [Vst_Deposito2].[Total] AS [Total], 
+    [Vst_Deposito2].[DescCentroOperativo] AS [DescCentroOperativo], 
+    [Vst_Deposito2].[Articulo] AS [Articulo], 
+    [Vst_Deposito2].[Pallets] AS [Pallets], 
+    [Vst_Deposito2].[DescArticulo] AS [DescArticulo], 
+    [Vst_Deposito2].[SerieLote] AS [SerieLote], 
+    [Vst_Deposito2].[FechaVencimiento] AS [FechaVencimiento], 
+    [Vst_Deposito2].[Deposito] AS [Deposito], 
+    [Vst_Deposito2].[DescDepo] AS [DescDepo], 
+    [Vst_Deposito2].[UnidadMedida] AS [UnidadMedida], 
+    [Vst_Deposito2].[Existencia] AS [Existencia], 
+    [Vst_Deposito2].[PendEntrega] AS [PendEntrega], 
+    [Vst_Deposito2].[PendRecibir] AS [PendRecibir], 
+    [Vst_Deposito2].[StockReal] AS [StockReal], 
+    [Vst_Deposito2].[IDPauta] AS [IDPauta], 
+    [Vst_Deposito2].[DescCalidad] AS [DescCalidad], 
+    [Vst_Deposito2].[DescCalidad2] AS [DescCalidad2], 
+    [Vst_Deposito2].[Color] AS [Color], 
+    [Vst_Deposito2].[Cantidad] AS [Cantidad]
+    FROM [dbo].[Vst_Deposito2] AS [Vst_Deposito2]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_ARTICULO_ARTICULOAnterior" Association="Self.FK_ARTICULO_ARTICULOAnterior">
+            <End Role="ARTICULO" EntitySet="ARTICULO" />
+            <End Role="ARTICULO1" EntitySet="ARTICULO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ARTICULO_ARTICULOBase" Association="Self.FK_ARTICULO_ARTICULOBase">
+            <End Role="ARTICULO" EntitySet="ARTICULO" />
+            <End Role="ARTICULO1" EntitySet="ARTICULO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ARTICULO_ARTICULOPosterior" Association="Self.FK_ARTICULO_ARTICULOPosterior">
+            <End Role="ARTICULO" EntitySet="ARTICULO" />
+            <End Role="ARTICULO1" EntitySet="ARTICULO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DEPOSITO_DEPOSITOCAPACIDAD" Association="Self.FK_DEPOSITO_DEPOSITOCAPACIDAD">
+            <End Role="DEPOSITOCAPACIDAD" EntitySet="DEPOSITOCAPACIDAD" />
+            <End Role="DEPOSITO" EntitySet="DEPOSITO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AGMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBdatos2" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="Vst_Deposito" EntityType="AGMModel.Vst_Deposito" />
+          <EntitySet Name="Vst_Deposito2" EntityType="AGMModel.Vst_Deposito2" />
+          <EntitySet Name="DEPOSITO" EntityType="AGMModel.DEPOSITO" />
+          <EntitySet Name="DEPOSITOCAPACIDAD" EntityType="AGMModel.DEPOSITOCAPACIDAD" />
+          <AssociationSet Name="FK_DEPOSITO_DEPOSITOCAPACIDAD" Association="AGMModel.FK_DEPOSITO_DEPOSITOCAPACIDAD">
+            <End Role="DEPOSITOCAPACIDAD" EntitySet="DEPOSITOCAPACIDAD" />
+            <End Role="DEPOSITO" EntitySet="DEPOSITO" />
+          </AssociationSet>
+          <EntitySet Name="ARTICULO" EntityType="AGMModel.ARTICULO" />
+          <AssociationSet Name="FK_ARTICULO_ARTICULOAnterior" Association="AGMModel.FK_ARTICULO_ARTICULOAnterior">
+            <End Role="ARTICULO" EntitySet="ARTICULO" />
+            <End Role="ARTICULO1" EntitySet="ARTICULO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ARTICULO_ARTICULOBase" Association="AGMModel.FK_ARTICULO_ARTICULOBase">
+            <End Role="ARTICULO" EntitySet="ARTICULO" />
+            <End Role="ARTICULO1" EntitySet="ARTICULO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ARTICULO_ARTICULOPosterior" Association="AGMModel.FK_ARTICULO_ARTICULOPosterior">
+            <End Role="ARTICULO" EntitySet="ARTICULO" />
+            <End Role="ARTICULO1" EntitySet="ARTICULO" />
+          </AssociationSet>
+          <EntitySet Name="USUARIO" EntityType="AGMModel.USUARIO" />
+        </EntityContainer>
+        <EntityType Name="Vst_Deposito">
+          <Key>
+            <PropertyRef Name="ExistenciaFardos" />
+            <PropertyRef Name="ExistenciaPallet" />
+          </Key>
+          <Property Name="Deposito" Type="Int64" />
+          <Property Name="DescDepo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Fila" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="DepositoCapacidad" Type="Int64" />
+          <Property Name="ExistenciaFardos" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="CapacidadDepositoPallet" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ExistenciaPallet" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Contiene" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Disponible" Type="Decimal" Precision="19" Scale="4" />
+        </EntityType>
+        <EntityType Name="Vst_Deposito2">
+          <Key>
+            <PropertyRef Name="Total" />
+            <PropertyRef Name="Pallets" />
+            <PropertyRef Name="SerieLote" />
+            <PropertyRef Name="FechaVencimiento" />
+            <PropertyRef Name="Existencia" />
+            <PropertyRef Name="PendEntrega" />
+            <PropertyRef Name="PendRecibir" />
+            <PropertyRef Name="StockReal" />
+            <PropertyRef Name="IDPauta" />
+            <PropertyRef Name="DescCalidad" />
+            <PropertyRef Name="DescCalidad2" />
+          </Key>
+          <Property Name="DescPlanta" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Total" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="DescCentroOperativo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Articulo" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Pallets" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="DescArticulo" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="SerieLote" Type="String" Nullable="false" MaxLength="120" FixedLength="false" Unicode="false" />
+          <Property Name="FechaVencimiento" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Deposito" Type="Int64" />
+          <Property Name="DescDepo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="UnidadMedida" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Existencia" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="PendEntrega" Type="Int32" Nullable="false" />
+          <Property Name="PendRecibir" Type="Int32" Nullable="false" />
+          <Property Name="StockReal" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="IDPauta" Type="Int64" Nullable="false" />
+          <Property Name="DescCalidad" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="DescCalidad2" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Cantidad" Type="Int32" />
+        </EntityType>
+        <EntityType Name="DEPOSITO">
+          <Key>
+            <PropertyRef Name="IDTabla" />
+          </Key>
+          <Property Name="IDTabla" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Codigo" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Planta" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Lugar" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Capacidad" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="UnidadMedida" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Tipo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Observacion" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Texto1" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Visible" Type="Int32" />
+          <Property Name="C_RVersion" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="DepositoCapacidad" Type="Int64" />
+          <NavigationProperty Name="DEPOSITOCAPACIDAD1" Relationship="AGMModel.FK_DEPOSITO_DEPOSITOCAPACIDAD" FromRole="DEPOSITO" ToRole="DEPOSITOCAPACIDAD" />
+        </EntityType>
+        <EntityType Name="DEPOSITOCAPACIDAD">
+          <Key>
+            <PropertyRef Name="IDTabla" />
+          </Key>
+          <Property Name="IDTabla" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Cantidad" Type="Int32" />
+          <NavigationProperty Name="DEPOSITO" Relationship="AGMModel.FK_DEPOSITO_DEPOSITOCAPACIDAD" FromRole="DEPOSITOCAPACIDAD" ToRole="DEPOSITO" />
+        </EntityType>
+        <Association Name="FK_DEPOSITO_DEPOSITOCAPACIDAD">
+          <End Type="AGMModel.DEPOSITOCAPACIDAD" Role="DEPOSITOCAPACIDAD" Multiplicity="0..1" />
+          <End Type="AGMModel.DEPOSITO" Role="DEPOSITO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DEPOSITOCAPACIDAD">
+              <PropertyRef Name="IDTabla" />
+            </Principal>
+            <Dependent Role="DEPOSITO">
+              <PropertyRef Name="DepositoCapacidad" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ARTICULO">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="CentroOperativo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="CtrlStock" Type="Int16" />
+          <Property Name="StockMaximo" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="StockMinimo" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="UnidadMedida" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="AlicuotaIVA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="AlicuotaPercepcionDGR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Origen" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Ubicacion" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Observacion" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Name="AlicuotaImpInterno" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="UnidadMedidaEquiv" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Redondeo" Type="Int32" />
+          <Property Name="ActualContabilidadCosto" Type="Int32" />
+          <Property Name="ActualStock" Type="Int32" />
+          <Property Name="AlicuotaPercepcion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ActualizaPrecio" Type="Int32" />
+          <Property Name="Visible" Type="Int32" />
+          <Property Name="Material" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Plano" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="LargoCorte" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="AnchoCorte" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="FactorConversion" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Peso" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ArticuloAnterior" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="ArticuloPosterior" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="TipoProduccion" Type="Int32" />
+          <Property Name="EmiteOrdenProduccion" Type="Int32" />
+          <Property Name="Repuesto" Type="Int32" />
+          <Property Name="AnticipacionProduccion" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="LoteEconomico" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ImporteImpInterno" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Texto1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Texto2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Texto3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Texto4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Texto5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Importe1" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Importe2" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Importe3" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Marca1" Type="Int32" />
+          <Property Name="Marca2" Type="Int32" />
+          <Property Name="Marca3" Type="Int32" />
+          <Property Name="Fecha1" Type="DateTime" Precision="3" />
+          <Property Name="Fecha2" Type="DateTime" Precision="3" />
+          <Property Name="UnidadConversion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ArticuloBase" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Texto6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Texto7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Texto8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Importe4" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Importe5" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Importe6" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Importe7" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Importe8" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ArticuloInterno" Type="Int32" />
+          <Property Name="PorcentajeRecupero" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PorcentajeDerecho" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Kilos" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ArticuloPrincipioActivo" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Fitosanitario" Type="Int32" />
+          <Property Name="C_RVersion" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="ValidaValeCompra" Type="Int32" />
+          <Property Name="CalculaCantidadEquiv" Type="Int32" />
+          <Property Name="CoeficienteReintegro" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="CodigoUnidadMedidaEquiv" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CalculaPercepcionIVA" Type="Int32" />
+          <Property Name="CalculaPercepcionIIBB" Type="Int32" />
+          <Property Name="DiasVencimiento" Type="Int32" />
+          <Property Name="NombreFantasia" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="SemillaFiscalizada" Type="Int32" />
+          <Property Name="ArticuloCategoria" Type="Int32" />
+          <Property Name="ArticuloVariedad" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Grano" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ARTICULO1" Relationship="AGMModel.FK_ARTICULO_ARTICULOAnterior" FromRole="ARTICULO" ToRole="ARTICULO1" />
+          <NavigationProperty Name="ARTICULO2" Relationship="AGMModel.FK_ARTICULO_ARTICULOAnterior" FromRole="ARTICULO1" ToRole="ARTICULO" />
+          <NavigationProperty Name="ARTICULO11" Relationship="AGMModel.FK_ARTICULO_ARTICULOBase" FromRole="ARTICULO" ToRole="ARTICULO1" />
+          <NavigationProperty Name="ARTICULO3" Relationship="AGMModel.FK_ARTICULO_ARTICULOBase" FromRole="ARTICULO1" ToRole="ARTICULO" />
+          <NavigationProperty Name="ARTICULO12" Relationship="AGMModel.FK_ARTICULO_ARTICULOPosterior" FromRole="ARTICULO" ToRole="ARTICULO1" />
+          <NavigationProperty Name="ARTICULO4" Relationship="AGMModel.FK_ARTICULO_ARTICULOPosterior" FromRole="ARTICULO1" ToRole="ARTICULO" />
+        </EntityType>
+        <Association Name="FK_ARTICULO_ARTICULOAnterior">
+          <End Type="AGMModel.ARTICULO" Role="ARTICULO" Multiplicity="0..1" />
+          <End Type="AGMModel.ARTICULO" Role="ARTICULO1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ARTICULO">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="ARTICULO1">
+              <PropertyRef Name="ArticuloAnterior" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ARTICULO_ARTICULOBase">
+          <End Type="AGMModel.ARTICULO" Role="ARTICULO" Multiplicity="0..1" />
+          <End Type="AGMModel.ARTICULO" Role="ARTICULO1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ARTICULO">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="ARTICULO1">
+              <PropertyRef Name="ArticuloBase" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ARTICULO_ARTICULOPosterior">
+          <End Type="AGMModel.ARTICULO" Role="ARTICULO" Multiplicity="0..1" />
+          <End Type="AGMModel.ARTICULO" Role="ARTICULO1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ARTICULO">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="ARTICULO1">
+              <PropertyRef Name="ArticuloPosterior" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Clave" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Activo" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AGMModelStoreContainer" CdmEntityContainer="DBdatos2" >
+          <EntitySetMapping Name="Vst_Deposito">
+            <EntityTypeMapping TypeName="AGMModel.Vst_Deposito">
+              <MappingFragment StoreEntitySet="Vst_Deposito">
+                <ScalarProperty Name="Disponible" ColumnName="Disponible" />
+                <ScalarProperty Name="Contiene" ColumnName="Contiene" />
+                <ScalarProperty Name="ExistenciaPallet" ColumnName="ExistenciaPallet" />
+                <ScalarProperty Name="CapacidadDepositoPallet" ColumnName="CapacidadDepositoPallet" />
+                <ScalarProperty Name="ExistenciaFardos" ColumnName="ExistenciaFardos" />
+                <ScalarProperty Name="DepositoCapacidad" ColumnName="DepositoCapacidad" />
+                <ScalarProperty Name="Fila" ColumnName="Fila" />
+                <ScalarProperty Name="DescDepo" ColumnName="DescDepo" />
+                <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Vst_Deposito2">
+            <EntityTypeMapping TypeName="AGMModel.Vst_Deposito2">
+              <MappingFragment StoreEntitySet="Vst_Deposito2">
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="DescCalidad2" ColumnName="DescCalidad2" />
+                <ScalarProperty Name="DescCalidad" ColumnName="DescCalidad" />
+                <ScalarProperty Name="IDPauta" ColumnName="IDPauta" />
+                <ScalarProperty Name="StockReal" ColumnName="StockReal" />
+                <ScalarProperty Name="PendRecibir" ColumnName="PendRecibir" />
+                <ScalarProperty Name="PendEntrega" ColumnName="PendEntrega" />
+                <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+                <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+                <ScalarProperty Name="DescDepo" ColumnName="DescDepo" />
+                <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+                <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+                <ScalarProperty Name="SerieLote" ColumnName="SerieLote" />
+                <ScalarProperty Name="DescArticulo" ColumnName="DescArticulo" />
+                <ScalarProperty Name="Pallets" ColumnName="Pallets" />
+                <ScalarProperty Name="Articulo" ColumnName="Articulo" />
+                <ScalarProperty Name="DescCentroOperativo" ColumnName="DescCentroOperativo" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="DescPlanta" ColumnName="DescPlanta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DEPOSITO">
+            <EntityTypeMapping TypeName="AGMModel.DEPOSITO">
+              <MappingFragment StoreEntitySet="DEPOSITO">
+                <ScalarProperty Name="DepositoCapacidad" ColumnName="DepositoCapacidad" />
+                <ScalarProperty Name="C_RVersion" ColumnName="_RVersion" />
+                <ScalarProperty Name="Visible" ColumnName="Visible" />
+                <ScalarProperty Name="Texto1" ColumnName="Texto1" />
+                <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+                <ScalarProperty Name="Capacidad" ColumnName="Capacidad" />
+                <ScalarProperty Name="Lugar" ColumnName="Lugar" />
+                <ScalarProperty Name="Planta" ColumnName="Planta" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="IDTabla" ColumnName="IDTabla" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DEPOSITOCAPACIDAD">
+            <EntityTypeMapping TypeName="AGMModel.DEPOSITOCAPACIDAD">
+              <MappingFragment StoreEntitySet="DEPOSITOCAPACIDAD">
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="IDTabla" ColumnName="IDTabla" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ARTICULO">
+            <EntityTypeMapping TypeName="AGMModel.ARTICULO">
+              <MappingFragment StoreEntitySet="ARTICULO">
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Grano" ColumnName="Grano" />
+                <ScalarProperty Name="ArticuloVariedad" ColumnName="ArticuloVariedad" />
+                <ScalarProperty Name="ArticuloCategoria" ColumnName="ArticuloCategoria" />
+                <ScalarProperty Name="SemillaFiscalizada" ColumnName="SemillaFiscalizada" />
+                <ScalarProperty Name="NombreFantasia" ColumnName="NombreFantasia" />
+                <ScalarProperty Name="DiasVencimiento" ColumnName="DiasVencimiento" />
+                <ScalarProperty Name="CalculaPercepcionIIBB" ColumnName="CalculaPercepcionIIBB" />
+                <ScalarProperty Name="CalculaPercepcionIVA" ColumnName="CalculaPercepcionIVA" />
+                <ScalarProperty Name="CodigoUnidadMedidaEquiv" ColumnName="CodigoUnidadMedidaEquiv" />
+                <ScalarProperty Name="CoeficienteReintegro" ColumnName="CoeficienteReintegro" />
+                <ScalarProperty Name="CalculaCantidadEquiv" ColumnName="CalculaCantidadEquiv" />
+                <ScalarProperty Name="ValidaValeCompra" ColumnName="ValidaValeCompra" />
+                <ScalarProperty Name="C_RVersion" ColumnName="_RVersion" />
+                <ScalarProperty Name="Fitosanitario" ColumnName="Fitosanitario" />
+                <ScalarProperty Name="ArticuloPrincipioActivo" ColumnName="ArticuloPrincipioActivo" />
+                <ScalarProperty Name="Kilos" ColumnName="Kilos" />
+                <ScalarProperty Name="PorcentajeDerecho" ColumnName="PorcentajeDerecho" />
+                <ScalarProperty Name="PorcentajeRecupero" ColumnName="PorcentajeRecupero" />
+                <ScalarProperty Name="ArticuloInterno" ColumnName="ArticuloInterno" />
+                <ScalarProperty Name="Importe8" ColumnName="Importe8" />
+                <ScalarProperty Name="Importe7" ColumnName="Importe7" />
+                <ScalarProperty Name="Importe6" ColumnName="Importe6" />
+                <ScalarProperty Name="Importe5" ColumnName="Importe5" />
+                <ScalarProperty Name="Importe4" ColumnName="Importe4" />
+                <ScalarProperty Name="Texto8" ColumnName="Texto8" />
+                <ScalarProperty Name="Texto7" ColumnName="Texto7" />
+                <ScalarProperty Name="Texto6" ColumnName="Texto6" />
+                <ScalarProperty Name="ArticuloBase" ColumnName="ArticuloBase" />
+                <ScalarProperty Name="UnidadConversion" ColumnName="UnidadConversion" />
+                <ScalarProperty Name="Fecha2" ColumnName="Fecha2" />
+                <ScalarProperty Name="Fecha1" ColumnName="Fecha1" />
+                <ScalarProperty Name="Marca3" ColumnName="Marca3" />
+                <ScalarProperty Name="Marca2" ColumnName="Marca2" />
+                <ScalarProperty Name="Marca1" ColumnName="Marca1" />
+                <ScalarProperty Name="Importe3" ColumnName="Importe3" />
+                <ScalarProperty Name="Importe2" ColumnName="Importe2" />
+                <ScalarProperty Name="Importe1" ColumnName="Importe1" />
+                <ScalarProperty Name="Texto5" ColumnName="Texto5" />
+                <ScalarProperty Name="Texto4" ColumnName="Texto4" />
+                <ScalarProperty Name="Texto3" ColumnName="Texto3" />
+                <ScalarProperty Name="Texto2" ColumnName="Texto2" />
+                <ScalarProperty Name="Texto1" ColumnName="Texto1" />
+                <ScalarProperty Name="ImporteImpInterno" ColumnName="ImporteImpInterno" />
+                <ScalarProperty Name="LoteEconomico" ColumnName="LoteEconomico" />
+                <ScalarProperty Name="AnticipacionProduccion" ColumnName="AnticipacionProduccion" />
+                <ScalarProperty Name="Repuesto" ColumnName="Repuesto" />
+                <ScalarProperty Name="EmiteOrdenProduccion" ColumnName="EmiteOrdenProduccion" />
+                <ScalarProperty Name="TipoProduccion" ColumnName="TipoProduccion" />
+                <ScalarProperty Name="ArticuloPosterior" ColumnName="ArticuloPosterior" />
+                <ScalarProperty Name="ArticuloAnterior" ColumnName="ArticuloAnterior" />
+                <ScalarProperty Name="Peso" ColumnName="Peso" />
+                <ScalarProperty Name="FactorConversion" ColumnName="FactorConversion" />
+                <ScalarProperty Name="AnchoCorte" ColumnName="AnchoCorte" />
+                <ScalarProperty Name="LargoCorte" ColumnName="LargoCorte" />
+                <ScalarProperty Name="Plano" ColumnName="Plano" />
+                <ScalarProperty Name="Material" ColumnName="Material" />
+                <ScalarProperty Name="Visible" ColumnName="Visible" />
+                <ScalarProperty Name="ActualizaPrecio" ColumnName="ActualizaPrecio" />
+                <ScalarProperty Name="AlicuotaPercepcion" ColumnName="AlicuotaPercepcion" />
+                <ScalarProperty Name="ActualStock" ColumnName="ActualStock" />
+                <ScalarProperty Name="ActualContabilidadCosto" ColumnName="ActualContabilidadCosto" />
+                <ScalarProperty Name="Redondeo" ColumnName="Redondeo" />
+                <ScalarProperty Name="UnidadMedidaEquiv" ColumnName="UnidadMedidaEquiv" />
+                <ScalarProperty Name="AlicuotaImpInterno" ColumnName="AlicuotaImpInterno" />
+                <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+                <ScalarProperty Name="Ubicacion" ColumnName="Ubicacion" />
+                <ScalarProperty Name="Origen" ColumnName="Origen" />
+                <ScalarProperty Name="AlicuotaPercepcionDGR" ColumnName="AlicuotaPercepcionDGR" />
+                <ScalarProperty Name="AlicuotaIVA" ColumnName="AlicuotaIVA" />
+                <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+                <ScalarProperty Name="StockMinimo" ColumnName="StockMinimo" />
+                <ScalarProperty Name="StockMaximo" ColumnName="StockMaximo" />
+                <ScalarProperty Name="CtrlStock" ColumnName="CtrlStock" />
+                <ScalarProperty Name="CentroOperativo" ColumnName="CentroOperativo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIO">
+            <EntityTypeMapping TypeName="AGMModel.USUARIO">
+              <MappingFragment StoreEntitySet="USUARIO">
+                <ScalarProperty Name="Activo" ColumnName="Activo" />
+                <ScalarProperty Name="Clave" ColumnName="Clave" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
